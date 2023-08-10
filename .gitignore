@@ -3,3 +3,6 @@
 **/out
 **/venv
 *.csv
+*.vci
+*.vec
+*.sca
