@@ -28,6 +28,7 @@ rows_to_keep = [
     "vctsPacketLenBits",
     "totalPacketDelay",
     "numContentionSlots",
+    "wrx",
 ]
 
 rows_to_keep = (
