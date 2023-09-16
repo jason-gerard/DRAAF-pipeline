@@ -6,3 +6,6 @@
 *.vci
 *.vec
 *.sca
+
+.DS_Store
+__pycache__
