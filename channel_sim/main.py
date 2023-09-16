@@ -52,7 +52,8 @@ for channel_code in channel_codes:
     SF = 10
     BW = 125000
     CR = 1
-    data_transmission_delay = LoRa.compute_time_on_air(data_packet_length_bits, SF, BW, CR)
+    # Important to use the encoded packet length here
+    data_transmission_delay = LoRa.compute_time_on_air(encoded_data_packet_length_bits, SF, BW, CR)
 
     data_time_slot = data_transmission_delay + propagation_delay + propagation_delay_guard
     round_duration = data_time_slot
@@ -74,12 +75,27 @@ for channel_code in channel_codes:
     print(f"Number of packet errors: {data_packets_error}")
     print(f"Percent of successful transmission: {(1 - packet_error_rate) * 100}%")
 
-    throughput_b_s = data_packets_received * data_packet_length_bits / simulation_duration 
+    # Throughput
+    throughput_b_s = data_packets_received * data_packet_length_bits / simulation_duration
     print(f"Throughput: {throughput_b_s} bits / second")
     throughput_k_h = (data_packets_received * (data_packet_length_bits / 8 / 1000)) / (simulation_duration / 60 / 60)
     print(f"Throughput: {throughput_k_h} kilobytes / hour")
 
-    print(f"Data: {data_packets_received * data_packet_length_bits}")
-    print(f"Overhead: {data_packets_sent * (encoded_data_packet_length_bits - data_packet_length_bits)} bits")
+    # Data and Overhead
+    data_bytes = data_packets_received * data_packet_length_bits / 8
+    print(f"Data: {data_bytes} bytes")
+    overhead_bytes = (data_packets_sent * (encoded_data_packet_length_bits - data_packet_length_bits)) / 8
+    print(f"Overhead: {overhead_bytes} bytes")
+
+    # Energy consumption
+    p_rx = 25.74 / 1000  # W
+    p_tx = 389.4 / 1000  # W
+    e_data = p_rx * data_time_slot + p_tx * data_time_slot
+    e_data_total = e_data * data_packets_sent
+    print(f"Energy consumption: {e_data_total} joules")
+
+    # Energy efficiency
+    ee_data = data_bytes / e_data_total
+    print(f"Energy efficiency: {ee_data} bytes / joule")
 
     print("\n\n\n")
