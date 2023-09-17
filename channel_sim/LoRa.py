@@ -1,5 +1,7 @@
 import math
 
+data_packet_length_bits = 504
+
 
 def compute_time_on_air(packet_len_bits: int, SF: int, BW: int, CR: int) -> float:
     nPreamble = 8
