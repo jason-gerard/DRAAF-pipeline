@@ -4,12 +4,11 @@ import numpy as np
 BERs = [
     1 * 10 ** -0,  # 1 i.e. every bit is an error
     1 * 10 ** -1,  # 0.1 10% of bits are errors
-    1 * 10 ** -2,  # 0.01
     1 * 10 ** -3,
     1 * 10 ** -4,
     2 * 10 ** -4,
-    1 * 10 ** -5,
     1 * 10 ** -6,
+    1 * 10 ** -9,
     0,  # No errors
 ]
 

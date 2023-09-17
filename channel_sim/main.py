@@ -5,13 +5,15 @@ import random
 import metrics
 import pprint
 import numpy as np
+import pickle
+import os
 
 channel_codes = [
     "None",
     "ReedSolomon",
 ]
 
-num_rounds = 100
+num_rounds = 1000
 
 results = {channel_code: {
     metric: {
@@ -118,3 +120,6 @@ for channel_code in channel_codes:
 
 
 pprint.pprint(results)
+
+with open(os.path.join("sim_results", "results.pkl"), "wb") as f:
+    pickle.dump(results, f)
