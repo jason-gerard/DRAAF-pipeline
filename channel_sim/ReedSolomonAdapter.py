@@ -8,11 +8,11 @@ class ReedSolomonAdapter:
     def __init__(self):
         self.codec = RSCodec(config.rs_config["num_ecc"])
 
-    def encode(self, frame, _):
+    def encode(self, frame):
         frame_copy = copy.deepcopy(frame)
         return self.codec.encode(frame_copy)
 
-    def decode(self, frame, _):
+    def decode(self, frame):
         frame_copy = copy.deepcopy(frame)
         try:
             return list(self.codec.decode(frame_copy)[0])

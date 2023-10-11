@@ -17,7 +17,9 @@ class Channel:
         self.state = State.good
 
     def frame_factory(self, num_bits):
-        return [0 for _ in range(num_bits)]
+        frame = [0 for _ in range(num_bits)]
+        frame[0] = 1
+        return frame
 
     def broadcast_frame(self, frame):
         frame_copy = copy.deepcopy(frame)

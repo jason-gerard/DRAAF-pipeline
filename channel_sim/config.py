@@ -1,5 +1,5 @@
 # General
-num_rounds = 500
+num_rounds = 100
 num_repetitions = 1  # 21 for statistical significance
 
 
@@ -17,42 +17,34 @@ BERs = [
     (0, 0)  # No errors
 ]
 
-SNRs = [
-    35,
-    30,
-    25,
-    22,
-    22,
-    22,
-    20,
-    15,
-    10,
-]
-
 # Channel codes
 channel_codes = [
     "None",
     "ReedSolomon",
     "BCH",
-    "LDPC",
+    # "LDPC",
 ]
 
 # Reed-Solomon Coding
 rs_config = {
     "num_ecc": 10,
+    "n": 15,
+    "k": 11,
 }
 
 # BCH Coding
 bch_config = {
     "num_ecc": 16,
     "m": 13,
+    "n": 31,
+    "k": 21,
 }
 
 # LDPC
 ldpc_config = {
-    "n": 80,
-    "d_v": 16,
-    "d_c": 40,
+    "n": 20,
+    "d_v": 4,
+    "d_c": 10,
 }
 
 # LoRa
@@ -67,3 +59,9 @@ propagation_speed = 299792458.0  # speed of light m/s
 propagation_delay = satellite_altitude / propagation_speed
 
 propagation_delay_guard = 0.005
+
+# Physical Hardware
+p_rx = 25.74 / 1000  # W
+p_tx = 389.4 / 1000  # W
+p_cycle_node = 0.0000082  # J
+p_cycle_sat = 0.0000082  # J

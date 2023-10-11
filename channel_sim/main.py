@@ -1,3 +1,5 @@
+import math
+
 import CodecAdaptorFactory
 import LoRa
 from channel import Channel
@@ -33,7 +35,7 @@ for channel_code in config.channel_codes:
 
             # Compute encoded data packet length
             frame = channel.frame_factory(config.data_packet_length_bits)
-            encoded_frame = codec.encode(frame, config.SNRs[index])
+            encoded_frame = codec.encode(frame)
             encoded_data_packet_length_bits = len(encoded_frame)
 
             for _ in range(config.num_rounds):
@@ -41,11 +43,11 @@ for channel_code in config.channel_codes:
 
                 node_frame = channel.frame_factory(config.data_packet_length_bits)
                 # print(node_frame)
-                node_encoded_frame = codec.encode(node_frame, config.SNRs[index])
+                node_encoded_frame = codec.encode(node_frame)
 
                 satellite_encoded_frame = channel.broadcast_frame(node_encoded_frame)
                 # print(satellite_encoded_frame)
-                satellite_frame = codec.decode(satellite_encoded_frame, config.SNRs[index])
+                satellite_frame = codec.decode(satellite_encoded_frame)
                 # print(satellite_frame)
 
                 if node_encoded_frame != satellite_encoded_frame:
@@ -92,15 +94,51 @@ for channel_code in config.channel_codes:
             print(f"Overhead: {overhead_bytes} bytes")
 
             # Energy consumption
-            p_rx = 25.74 / 1000  # W
-            p_tx = 389.4 / 1000  # W
-            e_data = p_rx * data_time_slot + p_tx * data_time_slot
-            ec_data = e_data * data_packets_sent
-            print(f"Energy consumption: {ec_data} joules")
+            if channel_code == "ReedSolomon":
+                n = config.rs_config["n"]
+                k = config.rs_config["k"]
+                M = math.ceil(config.data_packet_length_bits / k)
+
+                # These are the iterations
+                iter_encoding = M * k * (n - k)
+                iter_decoding = M * n * (n - k)
+
+                e_encoding = iter_encoding * config.p_cycle_node
+                e_decoding = iter_decoding * config.p_cycle_sat
+            elif channel_code == "BCH":
+                n = config.rs_config["n"]
+                k = config.rs_config["k"]
+                M = math.ceil(config.data_packet_length_bits / k)
+                d_min = n - k + 1
+
+                # These are the iterations
+                iter_encoding = M * k * (n - k)
+                iter_decoding = M * n * d_min
+
+                e_encoding = iter_encoding * config.p_cycle_node
+                e_decoding = iter_decoding * config.p_cycle_sat
+            else:
+                e_encoding = 0
+                e_decoding = 0
+
+            # Node, tx + encoding
+            e_tx = config.p_tx * data_time_slot
+            e_node_r = e_tx + e_encoding
+            e_node = e_node_r * data_packets_sent
+
+            # Satellite, rx + decoding
+            e_rx = config.p_rx * data_time_slot
+            e_satellite_r = e_rx + e_decoding
+            e_satellite = e_satellite_r * data_packets_sent
+
+            print(f"Energy consumption node: {e_node} joules")
+            print(f"Energy consumption satellite: {e_satellite} joules")
 
             # Energy efficiency
-            ee_data = data_bytes / ec_data
-            print(f"Energy efficiency: {ee_data} bytes / joule")
+            ee_node = data_bytes / e_node
+            ee_satellite = data_bytes / e_satellite
+            print(f"Energy efficiency node: {ee_node} bytes / joule")
+            print(f"Energy efficiency satellite: {ee_satellite} bytes / joule")
 
             print("\n\n\n")
 
@@ -108,8 +146,10 @@ for channel_code in config.channel_codes:
             results[channel_code][metrics.THROUGHPUT][BER].append(throughput_k_h)
             results[channel_code][metrics.DATA][BER].append(data_bytes)
             results[channel_code][metrics.OVERHEAD][BER].append(overhead_bytes)
-            results[channel_code][metrics.ENERGY_CONSUMPTION][BER].append(ec_data)
-            results[channel_code][metrics.ENERGY_EFFICIENCY][BER].append(ee_data)
+            results[channel_code][metrics.ENERGY_CONSUMPTION_NODE][BER].append(e_node)
+            results[channel_code][metrics.ENERGY_EFFICIENCY_NODE][BER].append(ee_node)
+            results[channel_code][metrics.ENERGY_CONSUMPTION_SATELLITE][BER].append(e_satellite)
+            results[channel_code][metrics.ENERGY_EFFICIENCY_SATELLITE][BER].append(ee_satellite)
 
 
 pprint.pprint(results)

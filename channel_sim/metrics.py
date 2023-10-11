@@ -1,13 +1,17 @@
 THROUGHPUT = "Throughput"
 DATA = "Data"
 OVERHEAD = "Overhead"
-ENERGY_CONSUMPTION = "Energy Consumption"
-ENERGY_EFFICIENCY = "Energy Efficiency"
+ENERGY_CONSUMPTION_NODE = "Energy Consumption Node"
+ENERGY_EFFICIENCY_NODE = "Energy Efficiency Node"
+ENERGY_CONSUMPTION_SATELLITE = "Energy Consumption Satellite"
+ENERGY_EFFICIENCY_SATELLITE = "Energy Efficiency Satellite"
 
 metrics_list = [
     THROUGHPUT,
     DATA,
     OVERHEAD,
-    ENERGY_CONSUMPTION,
-    ENERGY_EFFICIENCY,
+    ENERGY_CONSUMPTION_NODE,
+    ENERGY_EFFICIENCY_NODE,
+    ENERGY_CONSUMPTION_SATELLITE,
+    ENERGY_EFFICIENCY_SATELLITE,
 ]
