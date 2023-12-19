@@ -1,0 +1,97 @@
+# ----------------------------------------------------
+# ---- A FAST FORWARD ERROR CORRECTION TOOLBOX >> ----
+# ----------------------------------------------------
+# Parameters:
+# * Simulation ------------------------------------
+#    ** Type                   = BFER
+#    ** Type of bits           = int32
+#    ** Type of reals          = float32
+#    ** Date (UTC)             = 2023-12-19 21:16:04
+#    ** Git version            = v3.0.2
+#    ** Code type (C)          = TURBO
+#    ** Noise range            = 0.001 -> 0.1 dB
+#    ** Noise type (E)         = EP
+#    ** Seed                   = 0
+#    ** Statistics             = off
+#    ** Debug mode             = off
+#    ** Inter frame level      = 1
+#    ** Multi-threading (t)    = 4 thread(s)
+#    ** Coset approach (c)     = no
+#    ** Coded monitoring       = no
+#    ** Bad frames tracking    = off
+#    ** Bad frames replay      = off
+#    ** Bit rate               = 0.313726 (16/51)
+# * Source ----------------------------------------
+#    ** Type                   = RAND
+#    ** Implementation         = STD
+#    ** Info. bits (K_info)    = 64
+# * Codec -----------------------------------------
+#    ** Type                   = TURBO
+#    ** Info. bits (K)         = 64
+#    ** Codeword size (N_cw)   = 204
+#    ** Frame size (N)         = 204
+#    ** Code rate              = 0.313726 (16/51)
+# * Encoder ---------------------------------------
+#    ** Type                   = TURBO
+#    ** Systematic             = yes
+#    ** Tail length            = 12
+#    Encoder --------------------------------------
+#    ** Type                   = RSC
+#    ** Systematic             = yes
+#    ** Tail length            = 6
+#    ** Buffered               = on
+#    ** Standard               = LTE
+#    ** Polynomials            = {013,015}
+# * Decoder ---------------------------------------
+#    ** Type (D)               = TURBO
+#    ** Implementation         = FAST
+#    ** Systematic             = yes
+#    ** Num. of iterations (i) = 6
+#    ** CRC start iteration    = 2
+#    ** Enable json            = off
+#    ** Self-corrected         = off
+#    Scaling factor -------------------------------
+#    ** Enabled                = no
+#    Flip and check -------------------------------
+#    ** Enabled                = no
+#    Decoder --------------------------------------
+#    ** Type (D)               = BCJR
+#    ** Implementation         = STD
+#    ** Systematic             = yes
+#    ** Standard               = LTE
+#    ** Polynomials            = {013,015}
+#    ** Max type               = MAX
+# * Interleaver -----------------------------------
+#    ** Type                   = LTE
+# * Modem -----------------------------------------
+#    ** Type                   = OOK
+#    ** Implementation         = STD
+#    ** Bits per symbol        = 1
+#    ** Sigma square           = on
+# * Channel ---------------------------------------
+#    ** Type                   = BSC
+#    ** Implementation         = STD
+#    ** Complex                = off
+#    ** Add users              = off
+# * Monitor ---------------------------------------
+#    ** Lazy reduction         = off
+#    ** Frame error count (e)  = 1000000
+#    ** Compute mutual info    = no
+# * Terminal --------------------------------------
+#    ** Enabled                = yes
+#    ** Frequency (ms)         = 500
+# 
+# The simulation is running...
+# -----------------||------------------------------------------------------||---------------------
+# Event Probability||   Bit Error Rate (BER) and Frame Error Rate (FER)    ||  Global throughput  
+#       (EP)       ||                                                      ||  and elapsed time   
+# -----------------||------------------------------------------------------||---------------------
+# -----------------||----------|----------|----------|----------|----------||----------|----------
+#               EP ||      FRA |       BE |       FE |      BER |      FER ||  SIM_THR |    ET/RT 
+#                  ||          |          |          |          |          ||   (Mb/s) | (hhmmss) 
+# -----------------||----------|----------|----------|----------|----------||----------|----------
+            0.1000 ||  1000006 |   235226 |    23942 | 3.68e-03 | 2.39e-02 ||    7.412 | 00h00'08   
+            0.0100 ||  1000003 |        0 |        0 | 1.56e-08 | 1.00e-06 ||    7.501 | 00h00'08   
+            0.0020 ||  1000003 |        0 |        0 | 1.56e-08 | 1.00e-06 ||    7.439 | 00h00'08   
+            0.0010 ||  1000006 |        0 |        0 | 1.56e-08 | 1.00e-06 ||    7.545 | 00h00'08   
+# End of the simulation.

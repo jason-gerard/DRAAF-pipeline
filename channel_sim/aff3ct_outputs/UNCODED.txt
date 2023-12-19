@@ -1,0 +1,69 @@
+# ----------------------------------------------------
+# ---- A FAST FORWARD ERROR CORRECTION TOOLBOX >> ----
+# ----------------------------------------------------
+# Parameters:
+# * Simulation ------------------------------------
+#    ** Type                  = BFER
+#    ** Type of bits          = int32
+#    ** Type of reals         = float32
+#    ** Date (UTC)            = 2023-12-19 21:15:46
+#    ** Git version           = v3.0.2
+#    ** Code type (C)         = UNCODED
+#    ** Noise range           = 0.001 -> 0.1 dB
+#    ** Noise type (E)        = EP
+#    ** Seed                  = 0
+#    ** Statistics            = off
+#    ** Debug mode            = off
+#    ** Inter frame level     = 1
+#    ** Multi-threading (t)   = 4 thread(s)
+#    ** Coset approach (c)    = no
+#    ** Coded monitoring      = no
+#    ** Bad frames tracking   = off
+#    ** Bad frames replay     = off
+#    ** Bit rate              = 1 (1/1)
+# * Source ----------------------------------------
+#    ** Type                  = RAND
+#    ** Implementation        = STD
+#    ** Info. bits (K_info)   = 64
+# * Codec -----------------------------------------
+#    ** Type                  = UNCODED
+#    ** Info. bits (K)        = 64
+#    ** Codeword size (N_cw)  = 64
+#    ** Frame size (N)        = 64
+#    ** Code rate             = 1 (1/1)
+# * Decoder ---------------------------------------
+#    ** Type (D)              = NONE
+#    ** Implementation        = HARD_DECISION
+#    ** Systematic            = yes
+# * Modem -----------------------------------------
+#    ** Type                  = OOK
+#    ** Implementation        = STD
+#    ** Bits per symbol       = 1
+#    ** Sigma square          = on
+# * Channel ---------------------------------------
+#    ** Type                  = BSC
+#    ** Implementation        = STD
+#    ** Complex               = off
+#    ** Add users             = off
+# * Monitor ---------------------------------------
+#    ** Lazy reduction        = off
+#    ** Frame error count (e) = 1000000
+#    ** Compute mutual info   = no
+# * Terminal --------------------------------------
+#    ** Enabled               = yes
+#    ** Frequency (ms)        = 500
+# 
+# The simulation is running...
+# -----------------||------------------------------------------------------||---------------------
+# Event Probability||   Bit Error Rate (BER) and Frame Error Rate (FER)    ||  Global throughput  
+#       (EP)       ||                                                      ||  and elapsed time   
+# -----------------||------------------------------------------------------||---------------------
+# -----------------||----------|----------|----------|----------|----------||----------|----------
+#               EP ||      FRA |       BE |       FE |      BER |      FER ||  SIM_THR |    ET/RT 
+#                  ||          |          |          |          |          ||   (Mb/s) | (hhmmss) 
+# -----------------||----------|----------|----------|----------|----------||----------|----------
+            0.1000 ||  1000009 |  6403896 |   998807 | 1.00e-01 | 9.99e-01 ||   74.429 | 00h00'00   
+            0.0100 ||  1000006 |   641006 |   475287 | 1.00e-02 | 4.75e-01 ||   72.824 | 00h00'00   
+            0.0020 ||  1000005 |   128398 |   120669 | 2.01e-03 | 1.21e-01 ||   74.667 | 00h00'00   
+            0.0010 ||  1000005 |    63816 |    61931 | 9.97e-04 | 6.19e-02 ||   74.616 | 00h00'00   
+# End of the simulation.
