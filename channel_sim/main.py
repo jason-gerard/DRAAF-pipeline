@@ -1,6 +1,4 @@
 import math
-
-import CodecAdaptorFactory
 import LoRa
 from channel import Channel
 import config
@@ -14,46 +12,37 @@ import os
 
 results = {channel_code: {
     metric: {
-        BER[0]: [] for BER in config.BERs
+        ber: [] for ber in config.BERs
     } for metric in metrics.metrics_list
 } for channel_code in config.channel_codes}
 
 for channel_code in config.channel_codes:
-    for index, (good, bad) in enumerate(config.BERs):
+    for index, ber in enumerate(config.BERs):
         for repetition in range(config.num_repetitions):
             seed = 42 + repetition
             random.seed(seed)
             np.random.seed(seed)
 
-            channel = Channel(good, bad)
-
-            codec = CodecAdaptorFactory.get(channel_code)
+            corrected_ber = config.ber_table[channel_code][ber]
+            channel = Channel(corrected_ber)
 
             data_packets_sent = 0
             data_packets_received = 0
             data_packets_error = 0
 
             # Compute encoded data packet length
-            frame = channel.frame_factory(config.data_packet_length_bits)
-            encoded_frame = codec.encode(frame)
-            encoded_data_packet_length_bits = len(encoded_frame)
+            M = math.ceil(config.data_packet_length_bits / config.codec_params[channel_code]["K"])
+            encoded_data_packet_length_bits = M * config.codec_params[channel_code]["N"]
 
             for _ in range(config.num_rounds):
                 data_packets_sent += 1
 
-                node_frame = channel.frame_factory(config.data_packet_length_bits)
-                # print(node_frame)
-                node_encoded_frame = codec.encode(node_frame)
+                frame = channel.frame_factory(encoded_data_packet_length_bits)
 
-                satellite_encoded_frame = channel.broadcast_frame(node_encoded_frame)
-                # print(satellite_encoded_frame)
-                satellite_frame = codec.decode(satellite_encoded_frame)
-                # print(satellite_frame)
-
-                if node_encoded_frame != satellite_encoded_frame:
+                is_error = channel.broadcast_frame(frame)
+                if is_error:
                     data_packets_error += 1
-
-                if node_frame == satellite_frame:
+                else:
                     data_packets_received += 1
 
             # Important to use the encoded packet length here
@@ -71,8 +60,7 @@ for channel_code in config.channel_codes:
             print(f"Number packet sent: {data_packets_sent}")
             print(f"Number packet received: {data_packets_received}")
 
-            print(f"BER good state: {good}")
-            print(f"BER bad state: {bad}")
+            print(f"BER: {ber}")
             packet_error_rate = data_packets_error / data_packets_sent
             print(f"PER before correction: {packet_error_rate}")
             packet_error_rate = 1 - (data_packets_received / data_packets_sent)
@@ -94,32 +82,18 @@ for channel_code in config.channel_codes:
             print(f"Overhead: {overhead_bytes} bytes")
 
             # Energy consumption
-            if channel_code == "ReedSolomon":
-                n = config.rs_config["n"]
-                k = config.rs_config["k"]
-                M = math.ceil(config.data_packet_length_bits / k)
-
-                # These are the iterations
-                iter_encoding = M * k * (n - k)
-                iter_decoding = M * n * (n - k)
-
-                e_encoding = iter_encoding * config.p_cycle_node
-                e_decoding = iter_decoding * config.p_cycle_sat
+            if channel_code == "UNCODED":
+                e_encoding, e_decoding = metrics.ec_uncoded()
+            elif channel_code == "REP":
+                e_encoding, e_decoding = metrics.ec_rep()
             elif channel_code == "BCH":
-                n = config.rs_config["n"]
-                k = config.rs_config["k"]
-                M = math.ceil(config.data_packet_length_bits / k)
-                d_min = n - k + 1
-
-                # These are the iterations
-                iter_encoding = M * k * (n - k)
-                iter_decoding = M * n * d_min
-
-                e_encoding = iter_encoding * config.p_cycle_node
-                e_decoding = iter_decoding * config.p_cycle_sat
-            else:
-                e_encoding = 0
-                e_decoding = 0
+                e_encoding, e_decoding = metrics.ec_bch()
+            elif channel_code == "RS":
+                e_encoding, e_decoding = metrics.ec_rs()
+            elif channel_code == "TURBO":
+                e_encoding, e_decoding = metrics.ec_turbo()
+            elif channel_code == "LDPC":
+                e_encoding, e_decoding = metrics.ec_ldpc()
 
             # Node, tx + encoding
             e_tx = config.p_tx * data_time_slot
@@ -142,14 +116,13 @@ for channel_code in config.channel_codes:
 
             print("\n\n\n")
 
-            BER = good
-            results[channel_code][metrics.THROUGHPUT][BER].append(throughput_k_h)
-            results[channel_code][metrics.DATA][BER].append(data_bytes)
-            results[channel_code][metrics.OVERHEAD][BER].append(overhead_bytes)
-            results[channel_code][metrics.ENERGY_CONSUMPTION_NODE][BER].append(e_node)
-            results[channel_code][metrics.ENERGY_EFFICIENCY_NODE][BER].append(ee_node)
-            results[channel_code][metrics.ENERGY_CONSUMPTION_SATELLITE][BER].append(e_satellite)
-            results[channel_code][metrics.ENERGY_EFFICIENCY_SATELLITE][BER].append(ee_satellite)
+            results[channel_code][metrics.THROUGHPUT][ber].append(throughput_k_h)
+            results[channel_code][metrics.DATA][ber].append(data_bytes)
+            results[channel_code][metrics.OVERHEAD][ber].append(overhead_bytes)
+            results[channel_code][metrics.ENERGY_CONSUMPTION_NODE][ber].append(e_node)
+            results[channel_code][metrics.ENERGY_EFFICIENCY_NODE][ber].append(ee_node)
+            results[channel_code][metrics.ENERGY_CONSUMPTION_SATELLITE][ber].append(e_satellite)
+            results[channel_code][metrics.ENERGY_EFFICIENCY_SATELLITE][ber].append(ee_satellite)
 
 
 pprint.pprint(results)

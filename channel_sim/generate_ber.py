@@ -32,13 +32,13 @@ csv = [f",{','.join([f'{ber:.10f}' for ber in BERs])}"]
 
 for codec in codecs:
     output_file = f"./aff3ct_outputs/{codec['name']}.txt" 
-    # ber_range = ",".join([f"{ber}:{ber}" for ber in BERs])
-    # os.system(f"/home/jason/Code/aff3ct/build/bin/aff3ct "
-    #           f"-C \"{codec['name']}\" "
-    #           f"{codec['parameters']} "
-    #           f"--chn-type BSC --mdm-type OOK -R \"{ber_range}\" "
-    #           f"-n 1000000 -e 1000000 --sim-crit-nostop "
-    #           f"> {output_file}")
+    ber_range = ",".join([f"{ber}:{ber}" for ber in BERs])
+    os.system(f"/home/jason/Code/aff3ct/build/bin/aff3ct "
+              f"-C \"{codec['name']}\" "
+              f"{codec['parameters']} "
+              f"--chn-type BSC --mdm-type OOK -R \"{ber_range}\" "
+              f"-n 1000000 -e 1000000 --sim-crit-nostop "
+              f"> {output_file}")
 
     print(codec['name'])
     row = [codec['name']]
