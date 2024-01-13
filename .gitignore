@@ -6,6 +6,8 @@
 *.vci
 *.vec
 *.sca
+*.zip
 
 .DS_Store
 __pycache__
+!/channel_sim/ber_table.csv
