@@ -1,0 +1,77 @@
+% --------------------------------------------------------
+% Department of Information Engineering and Mathematics
+% University of Siena, Italy
+% Overleaf/LaTeX Template Created by Prof. Tommaso Addabbo
+% --------------------------------------------------------
+
+% use twoside option in case of double-sided print
+\documentclass[12pt,a4paper,oneside]{report} 
+\usepackage[utf8]{inputenc}
+
+% customize your packages in the following file
+\input{setup_stuff.tex}
+
+
+% ========================================================
+% ========================================================
+\begin{document}
+
+% ========================================================
+% ========================================================
+
+\pagestyle{empty_page}
+
+
+% --------------------------------------------------------
+% cover page
+\input{title_page.tex}
+\cleardoublepage 
+\setcounter{page}{1}
+
+% --------------------------------------------------------
+% table of contents
+\tableofcontents
+\cleardoublepage
+\pagestyle{default_page}
+
+
+% --------------------------------------------------------
+% input your chapters here
+
+\input{CHAPTERS/chapter_1.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+\input{CHAPTERS/chapter_2.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+\input{CHAPTERS/chapter_3.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+
+\input{CHAPTERS/chapter_4.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+% --------------------------------------------------------
+% input final stuff here (appendices, bibliography)
+\pagestyle{final_stuff}
+
+%\input{CHAPTERS/appendix_A.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+%\input{CHAPTERS/references.tex}
+%\phantomsection
+%\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{IEEEtran}
+%\bibliography{IEEEabrv,bibliografia}
+\bibliography{CHAPTERS/CompEXAM}
+
+
+
+%\input{CHAPTERS/references.tex}
+\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+%\input{CHAPTERS/acknow.tex}
+%\cleardoublepage % opens next new chapters in right pages for two-sided printing
+
+
+\end{document}

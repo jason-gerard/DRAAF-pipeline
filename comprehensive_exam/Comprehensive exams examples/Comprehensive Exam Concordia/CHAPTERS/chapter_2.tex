@@ -1,0 +1,172 @@
+%    El capítulo de revisión necesita una mejor estructura. Hasta donde vi tienes un conjunto de papers que discuten \textbf{Sistemas de detección} de VRU. Otro tema puede ser directamente el de\textbf{ Collective Perception Systems (más formalmente como está definido por la ETSI).} Necesito que pienses en subsecciones.
+% Una vez tengas las subsecciones, para cada paper revisado asegúrte de identificar: qué proponen, cómo lo hicieron, qué resultados lograron, fortalezas y desventajas. Las frases que puedes usar son: In [X] the authors propose bla bla. In the methodology, they used bla bla and modeled bla bla, etc. The results showed that bla bla. The streghts of this work are bla bla; on the other hand, the weakness of this work are bla bla.  Trata de mantener mas o menos la misma estructura cada vez que presentes un paper nuevo
+%Mueve la tabla resumen de todos los trabajos a la sección de discusión. Trata de hacer un compilado de las debilidades más remarcadas (o las que más se repiten) en los trabajaos revisados. En future work sería bueno eferencias al menos uno o dos trabajos que propongan el tema de clustering, como un antecedente (puede ser uno de los ya revisados)
+%Simplifica el workplan a algo parecido a como lo presentó Raydel y donde se pueda ver lo que se YA se hizo en el período pasado (un año antes)
+
+%---------------------------------------------------------
+\chapter{Literature Review}
+%---------------------------------------------------------
+Nowadays, we observe a substantial integration of new wireless access technologies to support the deployment of Intelligent Transportation Systems (ITS) Applications. New proposals and standardization have succeeded in expanding the use cases and performance of information services related to intelligent and efficient transportation management. In fact, wireless access networks have been considered a critical factor in realizing ITS applications \cite{5GAA}. 
+
+One advantage of using wireless networks in the traffic context is that the information collected by both motor vehicles and infrastructure can be shared with the different users of the traffic network. This corresponds to the information collected individually by sensors in modern vehicles and equipment installed in the infrastructure of the traffic roads. Collection and sharing of information from the environment---through sensors or other techniques---involve new challenges that have been addressed mainly from a sensor fusion approach, where the main purpose is to share obstacle detection by vehicles with other vehicles on their neighborhood. Accordingly, the concept of Collective Perception has been defined by ETSI \cite{ETSI}, where one of the most important challenges is dealing with communication channel overload and redundant information reported in the vehicular context. 
+
+One of the aspects to be addressed by the collective perception corresponds to the detection of Vulnerable Road Users (VRU) such as pedestrians, cyclists, electric scooter riders, and motorcyclists, among others. VRU detection is an important feature in assisted and autonomous driving. The use of information collectively generated from VRU detection systems is a topic under research and currently under standardization. 
+%---------------------------------------------------------
+\section{Collective Perception Service}
+%---------------------------------------------------------
+The Collective Perception Service is a concept defined by ETSI in \cite{ETSI} as follows:
+\begin{quote}
+\textit{Concept of sharing the perceived environment of a station based on perception sensors}
+\end{quote}
+A station corresponds to an Intelligent Transport Systems-Station (ITS-S) that could be present in the infrastructure, vehicles, or people.
+Besides the concept, the report defines services and uses cases, like Generation Rules for Collective Perception Messages (CPM), which differ from the Cooperative Awareness Messages (CAM). CPM are messages intended to share the perceived environment, and CAM are messages intended to share the dynamic state of each vehicle \cite{ETSI2}.
+
+One of the main access technologies to support the Collective Perception Service in ITS is 5G-CV2X. The authors in \cite{hakeem20205g} performed an extensive study of the 3GPP releases 14 and 16 regarding the implementation of 5G-V2X. The authors provided precise details on the technologies involved, challenges, features, requirements, and designs. Something to highlight in their study corresponds to the analysis of the use cases, where they specifically mentioned the \textit{Use Case 3 (UCC3): Cooperative safety}, defined as follows:
+
+\begin{quote}
+``Use Case 3 (UCC3): is mainly concerned with protecting Vulnerable Road Users (VRUs). This can be done by detecting the presence of VRUs using a local sensor or camera or radar or using a positioning system, or using the communication system. Another way to detect the presence of VRUs is by using their cellular phone information if the VRU holds a smartphone or a cellular communication device."
+\end{quote}
+
+According to Use Case 3 discussed in \cite{hakeem20205g}, smartphones are proposed to detect VRU. However, the authors did not include the design and evaluation of new ways to warn about the presence of VRU using the communications network using device-to-device communications, discarding how much progress could be made in this area, such as grouping VRU to establish resource allocation for safety message exchanges. In the emerging needs of this case, they remarked on the inclusion of new sensors for the passive recognition of VRUs, discarding the active role of these users on the communications network.
+
+In \cite{Ghorai2022}, the authors describe extensive research on the state estimation and motion prediction of vehicles and vulnerable road users for cooperative autonomous driving. In the study, the authors detailed several proposals for VRU and vehicle detection in transit roads, considering this task as a primary one in the development of environment discovery capabilities of autonomous vehicles. In the first instance, the study describes the different sensors, methods, and techniques for detecting VRUs or animals. About the detection of cyclists and pedestrians, the study mentions the following:
+
+\begin{quote}
+``More research is still needed in this area (Pedestrian, Cyclist, and Vehicle Detection) since the mAP (Mean Average Precision) of the current methods, especially when it comes to pedestrians and cyclists that are more vulnerable and frequently disobey traffic laws, is far lower than 90\%".
+\end{quote}
+
+Nevertheless, the study makes little mention of the possibility of pedestrians and cyclists being able to participate in the communication network; the focus of the study in question is strongly related to the different sensors deployed in the vehicles and other methods to exploit them.
+
+%Thanks to the two works mentioned above \cite{hakeem20205g,Ghorai2022} it is possible to access many proposals that are highly related to the object of study that supports this report. Both works allow us to understand many technologies, methods, and techniques for VRU detection and how different challenges associated with implementing and developing these systems originated.
+
+\section{Detection of Non-Connected Road Users}
+
+In \cite{Rondinone2018}, the authors propose a system architecture that, based on collaborative information between vehicles and the infrastructure, can deploy safety applications. The architecture proposed in the work detailed above is shown in Fig \ref{fig:Rond}. This work is strongly related to Cooperative Autonomous Vehicles (CAV). In the system, VRU are considered as objects, or non-cooperative users, to be included in the information shared between vehicles. The work is framed under the ETSI-ITS G5 standardization and it aims at describing the V2X solutions adopted by the EU funded project H2020 MAVEN (Managing Automated Vehicles Enhances Network)\footnote{http://www.maven-its.eu/}. The authors in \cite{Rondinone2018} discard the active role of VRUs on the vehicular network context. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig2.png}
+    \caption{MAVEN CAV communication architecture. Source: \cite{Rondinone2018}}
+    \label{fig:Rond}
+\end{figure}
+
+In \cite{DaSilva2019}, the authors focused on the fusion of information from other vehicles, connected through IEEE 802.11p, with which VRU detection is performed. They did not consider connectivity for VRU. Furthermore, the authors describe a flexible end-to-end system simulator that can evaluate cooperative mapping strategies in complex road driving environments. As shown in Figure \ref{fig:DaS}, the proposed system requires an infrastructure where the information about environment maps are sent to the station. Once the base station collects the maps from every vehicle in the surrounding area, it runs the detection process.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=15cm]{FIGURES/Figura5.png}
+    \caption{Dataflow for the proposed system Source: \cite{DaSilva2019}}
+    \label{fig:DaS}
+\end{figure}
+
+Subsequently, in \cite{Tsukada2020}, the authors proposed AutoC2X, a system that enables cooperative perception using OpenC2X for autonomous vehicles based on Autoware. The proposed system (see Figure \ref{fig:Tsu}) was initially tested in software implementation contexts and then field-tested with real equipment. This proposal's full development focuses on providing better environmental information to autonomous vehicles. The results showed that the system can reduce the delivery times of collective perception messages up to $100 [ms]$ in the worst-case scenario. They considered VRU as passive since they are categorized as obstacles. The experiments involved infrastructure, such as roadside units, to obtain environmental information reported by autonomous vehicles. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig7.png}
+    \caption{Architecture for the proposed system. Source: \cite{Tsukada2020}}
+    \label{fig:Tsu}
+\end{figure}
+
+In \cite{Schiegg2021}, the authors presented a system for generating collective perception messages based on the implementation of sensor-equipped infrastructure for VRU protection. This covers areas with blind spots where vehicle sensors have poor performance. The authors presented the design of their proposal (see Figure \ref{fig:Sch}) in addition to performing empirical evaluations with a real experiment and with simulations. The results showed that the proposed system works properly under low density scenario. However under the large-scale assessment, the authors identified a lack in the delivery of information about the collective perception messages due to highly congested scenarios; to address the latter, the authors proposed to give priority to the link for Infrastructure to Vehicle (I2V) rather than for Vehicle to Vehicle (V2V) in what is known as resource allocation.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig9.png}
+    \caption{System architecture of the VRU protection use case. Source: \cite{Schiegg2021}}
+    \label{fig:Sch}
+\end{figure}
+
+In \cite{Jan2021}, the main contribution from the authors is the introduction of a tool for the generation of virtual pedestrians that realistically avoid obstacles, providing a platform to accurately and efficiently test autonomous vehicles in pedestrian areas. In this way, they provided a tool for to emulate a scenario where an autonomous vehicle enters an environment with moving pedestrians. This work considered not only individuals but also studied cases of interaction with groups of people moving in pedestrian zones. The latter is relevant because it is one of the few articles that refer to the detection of individuals and groups of people. Figure \ref{fig:Jan} shows a view of the simulation tool where pedestrians and an autonomous vehicle interact. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig11.png}
+    \caption{Simulation view of virtual pedestrian c in the vehicle's vicinity and an obstacle. Source: \cite{Jan2021}}
+    \label{fig:Jan}
+\end{figure}
+
+\section{Fusion Sensor and Connected VRU}
+
+In \cite{Merdrignac2017}, the authors propose a VRU detection system, where VRU can connect with motorized vehicles using IEEE 802.11g. The system exploits the information coming from sensors deployed in each car and employs techniques for the fusion of the information received by each vehicle. The study shows that an ideal fusion between perception and Vehicle to Pedestrian (V2P) communication should benefit from both systems. Figure \ref{fig:Merd} shows the overall cooperative protection system description and a flow chart of the fusion between perception and V2P communication. Furthermore, the authors considered when there is line-of-sight (LOS) and non-line-of-sight (NLOS) at the moment the detection is performed. Additionally, the article presents the evaluations of an empirical experiment and contrast it with the theoretical models. Note that this work did not consider any scheme or assumption about the grouping of VRUs or motor vehicles.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=16cm]{FIGURES/Fig1.png}
+    \caption{Cooperative protection system description (left) and flow chart of fusion between perception and V2P communication (right). Source: \cite{Merdrignac2017}}
+    \label{fig:Merd}
+\end{figure}
+
+
+In \cite{Reitberger2018}, the authors presented an approach to the cooperative tracking of cyclists using smart devices and infrastructure-based sensors. Although the study did not mention a specific technology for the exchange of information between the infrastructure and cyclists, the authors referred to the use of an ad-hoc network for the reception of variables associated with the cyclist's movement (e.g., the speed) for the infrastructure to track it (see Figure \ref{fig:Rei}). This work is mainly oriented to the theoretical analysis of how to track VRU from the infrastructure. In the experiment, the intersection is equipped with a stereo camera, also they assume an ideal communication medium with negligible
+delay. However, they proposed using a more realistic communication network model in their future work. The work does not report what is intended to be done with the VRU tracking: if it will update a database or will transmit tracking information to the vehicles in the communications network.\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=12cm]{FIGURES/Fig3.png}
+    \caption{VRU tracking based on infrastructure and smart devices. Source: \cite{Reitberger2018}}
+    \label{fig:Rei}
+\end{figure}
+
+Continuing with the literature review, in \cite{Sewalkar2019}, 
+the authors first presented a literature study related to the integration of VRU in the context of wireless communication network development and the technologies used for this purpose. Then, they evaluated via simulations the implementation of rules for the generation of messages from VRU, taking into consideration their dynamics. Therefore, they considered active VRU. For evaluating their proposal, they used a simulation of an intersection as the one shown in Figure \ref{fig:Sew}. Within the discussion of their results, they highlighted the importance of VRU's active role in communications. In addition, they showed---as it has been supported in other works---that the use of VRU devices would significantly increase the load on the communication network. The authors mentioned some of the efforts to deal with the congestion problem, among which are the creation of reception-only modes, contextual transmission, and VRU clustering.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig6.png}
+    \caption{Simulation scenario, source:\cite{Sewalkar2019}}
+    \label{fig:Sew}
+\end{figure}
+
+In \cite{Emara2020}, the authors used the Age-of-Information (AoI) metric and evaluated a system where VRU send messages over the C-V2X scheme, i.e., from their devices to a base station (see Figure \ref{fig:Ema}). With this, they evaluated the performance of metrics such as packet inter-arrival time for detecting these users by motor vehicles. Additionally, they established a considerable improvement over the metrics discussed above by using a Multiple-access Edge Computing MEC architecture. The performance evaluation has been done using analytical models. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig8.png}
+    \caption{Evaluation scenario. Source:\cite{Emara2020}}
+    \label{fig:Ema}
+\end{figure}
+
+Authors in \cite{Militaru2021} proposed an interactive traffic application based on robust connectivity of all traffic participants and intelligent infrastructure. As shown in Figure \ref{fig:Mil}, the proposed application is based on an established architecture where different options for VRU and vehicle connection exploiting WiFi, BLE, and CV2X networks are considered. The application seeks to alert the presence of VRUs on the roads using sensors and cooperative perception messages. However, no evaluation of the proposed application is evidenced by simulations or experimental tests.
+
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=13cm]{FIGURES/Fig13.png}
+    \caption{Interface Application usage in a traffic scenario and the proposed architectures. Source: \cite{Militaru2021}}
+    \label{fig:Mil}
+\end{figure}
+
+
+\section{Generation Rules Techniques and Redundancy Mitigation}
+
+In \cite{Thandavarayan2019}, the authors discussed about the implementation of cooperative perception message generation rules, which aim to improve the information sharing about obstacle discovery with vehicles in the neighborhood. They performed an analysis using traffic and communication network simulations, where they evidenced differences when establishing dynamic message generation policies over time in contrast to fixed frequency message generation policies. Authors also evaluated the impact of these rules on high and low denial of service scenarios. Moreover, they established a metric to measure the collective awareness of discovered objects and evaluated the performance of the communication network using dynamic and static rules approaches. Figure \ref{fig:Than} show the different levels of awareness in each evaluation case. The results reported significant differences when there is a greater distance between the obstacles and the vehicle that discovers them. At the same time, it is evident how the use of these rules directly impacts the performance statistics of the communications network, e.g., the packet delivery ratio (PDR). In this work, a passive role is considered from the VRUs as they do not participate in the exchange of cooperative perception messages. 
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=15cm]{FIGURES/Fig4.png}
+    \caption{Object Awareness Ratio as a function of the distance between the detected object and the vehicle receiving the CPM (Left), PDR (Packet Delivery Ratio) as a function of the distance between transmitter and receiver (Right). Source: \cite{Thandavarayan2019}}
+    \label{fig:Than}
+\end{figure}
+
+In much the same way as the previous article, in \cite{Garlichs2019}, the authors contribute to the invention of a set of generation rules for the Collective Perception Service, which seek to handle the trade-off between two important aspects in the performance of vehicular networks: 1) provide quality of service to receiving Intelligent Transport System stations, in terms of the number of known objects and the update frequency per unique object known; and 2) reduce the generated network load on the employed radio channel.
+
+Unlike the authors in \cite{Thandavarayan2019}, in \cite{Garlichs2019} they established more complex generation rules that consider the following characteristics of the detected object: novelty, distance, speed, and age. In addition, they included in their system the segmentation of cooperative messages to reduce the radio channel load and thus improve the statistics of the communication network. 
+
+In \cite{Willecke2021}, the authors analyzed the inclusion rules of person-like objects in a large-scale simulation study, demonstrating that exchanging cooperation messages can significantly improve people's awareness with little additional use of channel resources. For adding a new person or VRU to the cooperative perception messages, they use the scheme shown in Figure \ref{fig:will}, which is taken from another publication. The main contribution of this work lies in the large-scale simulation of the evaluation scenario. In the paper, they concluded that using the rules improves the congestion conditions of the channel when the number of obstacles to be discovered increases. 
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig10.png}
+    \caption{Inclusion rules for objects of type person or animal currently defined in TR 103 562 (ITS standardization) Source: \cite{Willecke2021}}
+    \label{fig:Will}
+\end{figure}
+
+In \cite{Delooz2022}, the authors analyzed, evaluated and compared rules for the inclusion of new obstacles recognized by sensors. These rules focused on mitigating redundant information within the communication network in the vehicular context due to the reporting of the same object by two or more vehicles or infrastructure in its vicinity. From the analysis of simulations, the authors implemented the rules of mitigation of redundant information by taking four filters through which the data should be checked (see Figure \ref{fig:Del}). The results showed that implementing these rules positively impacts the communication network, decreasing the load on the communication network without compromising the vehicle's awareness of obstacles or VRUs. The authors recognized that adjusting the rule parameters according to the load state of the communication network will increase its performance in terms of collective awareness and efficient use of network resources.  
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=10cm]{FIGURES/Fig12.png}
+    \caption{dataflow for the proposed system Source: \cite{Delooz2022}}
+    \label{fig:Del}
+\end{figure}
+
+%\newgeometry{top=1.7cm}
+

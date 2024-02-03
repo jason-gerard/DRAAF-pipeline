@@ -1,0 +1,3 @@
+# Overleaf Compiler Directives - Do not delete this file
+$ENV{'TZ'}='GMT+1';
+$xelatex = 'xelatex -output-driver="xdvipdfmx -z 0" %O %S';

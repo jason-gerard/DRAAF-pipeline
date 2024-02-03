@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" modified="2024-02-03T20:21:29.433Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="8S0GdPBmyoMs5nNecazf" version="23.0.2" type="device">
+  <diagram name="Page-1" id="OVEOFF25-sN4jz0tX0kb">
+    <mxGraphModel dx="988" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PXNnNeumEB5E20T7TsoP-13" value="ARS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#dae8fc;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="160" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-14" value="ARS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#dae8fc;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="200" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-15" value="ARS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#dae8fc;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="240" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-16" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#d5e8d4;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="280" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-17" value="FBP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#ffe6cc;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="540" y="300" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-18" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#d5e8d4;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-19" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Times New Roman;fillColor=#d5e8d4;strokeColor=#4D4D4D;" parent="1" vertex="1">
+          <mxGeometry x="440" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-20" value="" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;startFill=0;endFill=0;fontColor=#4D4D4D;strokeColor=#4D4D4D;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-21" value="m Contention slots" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Times New Roman;fontColor=#4D4D4D;" parent="PXNnNeumEB5E20T7TsoP-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-22" value="" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;startFill=0;endFill=0;fontColor=#4D4D4D;strokeColor=#4D4D4D;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-23" value="min(dtqLen, t) Collision-free data slots" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Times New Roman;fontColor=#4D4D4D;" parent="PXNnNeumEB5E20T7TsoP-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint x="34" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-24" value="" style="endArrow=baseDash;startArrow=baseDash;html=1;rounded=0;startFill=0;endFill=0;fontColor=#4D4D4D;strokeColor=#4D4D4D;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="540" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PXNnNeumEB5E20T7TsoP-25" value="IFS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Times New Roman;fontColor=#4D4D4D;" parent="PXNnNeumEB5E20T7TsoP-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
+            <mxPoint x="3" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
