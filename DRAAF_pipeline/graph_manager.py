@@ -54,7 +54,7 @@ class GenericPlotter:
                     y_err = y_err[:len(y)]
                     x = x[:len(y)]
 
-                protocol_name = data_source.split("-")[0]
+                protocol_name = "-".join(data_source.split("-")[:-1])
                 key_label = protocol_name if not show_metric_name else f"{metric_name} - {protocol_name}"
                 if "Survivability" in key_label:
                     key_label = f"{metric_name.split(' ')[0]} - {protocol_name}"
