@@ -38,8 +38,6 @@ class GenericPlotter:
         plt.rc('legend', fontsize=12)
         plt.rcParams.update({'font.family': 'Times New Roman'})
 
-        print(label)
-
         fig = plt.figure()
         ax = fig.add_subplot(111)
 
@@ -61,7 +59,7 @@ class GenericPlotter:
                 if "Survivability" in key_label:
                     key_label = f"{metric_name.split(' ')[0]} - {protocol_name}"
 
-                plt.errorbar(x, y, yerr=y_err, label=key_label, capsize=4, clip_on=False)
+                plt.errorbar(x, y, yerr=y_err, label=key_label, capsize=4, clip_on=False, linewidth=2)
 
         if "Energy Efficiency" in label:
             y_label = "Energy Efficiency [bytes / joule]"

@@ -8,8 +8,6 @@ import DRAAF_pipeline.constants as constants
 
 
 class ETLPipeline:
-    DATA_SOURCES_ROOT = "data_sources"
-    DATA_DIR = "data"
 
     def __init__(self, data_sources, data_source_to_protocol, node_counts, workspace_name):
         self.data_sources = data_sources
@@ -30,7 +28,7 @@ class ETLPipeline:
         for data_source in self.data_sources:
             print(f"Processing data source: {data_source}")
 
-            data_source_path = os.path.join(constants.PROJECT_ROOT, ETLPipeline.DATA_SOURCES_ROOT, data_source, ETLPipeline.DATA_DIR)
+            data_source_path = os.path.join(constants.PROJECT_ROOT, constants.DATA_SOURCES_ROOT, data_source, constants.DATA_DIR)
             print(f"Data source path: {data_source_path}")
             sca_files = [f for f in os.listdir(data_source_path) if ".sca" in f]
             vec_files = [f for f in os.listdir(data_source_path) if ".vec" in f]

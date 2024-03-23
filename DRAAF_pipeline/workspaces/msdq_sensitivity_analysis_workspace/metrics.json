@@ -1,0 +1,4634 @@
+{
+    "MSDQ_Sensitivity_Analysis-m=3,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                10.280141380569
+            ],
+            "Jain Fairness Index": [
+                0.8756567425569177
+            ],
+            "Throughput [kilobytes / hour]": [
+                42.0
+            ],
+            "Overhead": [
+                1.547
+            ],
+            "Data": [
+                6.3
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                156.91051217724362
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                96.31301773341484
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                59.68057134034118
+            ],
+            "Node Survivability [hours]": [
+                49.53240912004192
+            ],
+            "Satellite Survivability [hours]": [
+                129.38392518386433
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                132.60280987286174
+            ],
+            "Jain Fairness Index": [
+                0.8600730593607306
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.14
+            ],
+            "Overhead": [
+                2.094
+            ],
+            "Data": [
+                13.671
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                385.6329237391219
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                57.465537618257386
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                50.01281931352848
+            ],
+            "Node Survivability [hours]": [
+                68.09609461017992
+            ],
+            "Satellite Survivability [hours]": [
+                146.53543356301589
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                192.2277891237444
+            ],
+            "Jain Fairness Index": [
+                0.7094008559201141
+            ],
+            "Throughput [kilobytes / hour]": [
+                93.66
+            ],
+            "Overhead": [
+                2.243
+            ],
+            "Data": [
+                14.049
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                400.0452430575694
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                41.44229815753228
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                37.55212252120323
+            ],
+            "Node Survivability [hours]": [
+                95.57480676945303
+            ],
+            "Satellite Survivability [hours]": [
+                147.9219181888719
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                206.5003842662824
+            ],
+            "Jain Fairness Index": [
+                0.48
+            ],
+            "Throughput [kilobytes / hour]": [
+                90.72000000000001
+            ],
+            "Overhead": [
+                2.501
+            ],
+            "Data": [
+                13.608
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                385.2690812403307
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                25.476281034362383
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                23.89612711187511
+            ],
+            "Node Survivability [hours]": [
+                121.3156239731542
+            ],
+            "Satellite Survivability [hours]": [
+                147.07494291793577
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                227.64481583192708
+            ],
+            "Jain Fairness Index": [
+                0.3394475138121547
+            ],
+            "Throughput [kilobytes / hour]": [
+                80.64
+            ],
+            "Overhead": [
+                2.848
+            ],
+            "Data": [
+                12.096
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                332.05779048577705
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                16.072993340583416
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                15.330912700408565
+            ],
+            "Node Survivability [hours]": [
+                129.15798220111674
+            ],
+            "Satellite Survivability [hours]": [
+                142.6069618068382
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                251.3569736532448
+            ],
+            "Jain Fairness Index": [
+                0.288
+            ],
+            "Throughput [kilobytes / hour]": [
+                80.64
+            ],
+            "Overhead": [
+                3.116
+            ],
+            "Data": [
+                12.096
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                332.05779048577705
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                12.619821569965014
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                12.157766911097301
+            ],
+            "Node Survivability [hours]": [
+                135.21237396391086
+            ],
+            "Satellite Survivability [hours]": [
+                142.6069618068382
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                244.85584780405884
+            ],
+            "Jain Fairness Index": [
+                0.23081848184818482
+            ],
+            "Throughput [kilobytes / hour]": [
+                78.54
+            ],
+            "Overhead": [
+                3.448
+            ],
+            "Data": [
+                11.781
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                321.2952188887478
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                10.00909224873045
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                9.706705819469574
+            ],
+            "Node Survivability [hours]": [
+                137.63457637673648
+            ],
+            "Satellite Survivability [hours]": [
+                141.67425541832333
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                268.3328488942765
+            ],
+            "Jain Fairness Index": [
+                0.11844262295081967
+            ],
+            "Throughput [kilobytes / hour]": [
+                71.4
+            ],
+            "Overhead": [
+                5.114
+            ],
+            "Data": [
+                10.71
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                287.6107039480902
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.682125173782184
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.607124031233373
+            ],
+            "Node Survivability [hours]": [
+                141.64412290433495
+            ],
+            "Satellite Survivability [hours]": [
+                139.50327589818292
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                277.2227276128594
+            ],
+            "Jain Fairness Index": [
+                0.04876190476190476
+            ],
+            "Throughput [kilobytes / hour]": [
+                53.760000000000005
+            ],
+            "Overhead": [
+                8.305
+            ],
+            "Data": [
+                8.064
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                206.7292150031996
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.7072255815321598
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.693242329956469
+            ],
+            "Node Survivability [hours]": [
+                137.18776994454856
+            ],
+            "Satellite Survivability [hours]": [
+                133.17422198643618
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                291.2637207994159
+            ],
+            "Jain Fairness Index": [
+                0.03200250626566416
+            ],
+            "Throughput [kilobytes / hour]": [
+                47.46
+            ],
+            "Overhead": [
+                11.524
+            ],
+            "Data": [
+                7.119
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                179.1980101070283
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                0.9888179826007293
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                0.9833916092465782
+            ],
+            "Node Survivability [hours]": [
+                135.00928207443584
+            ],
+            "Satellite Survivability [hours]": [
+                130.76244176204392
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                309.5205258303448
+            ],
+            "Jain Fairness Index": [
+                0.025104477611940297
+            ],
+            "Throughput [kilobytes / hour]": [
+                48.72
+            ],
+            "Overhead": [
+                14.54
+            ],
+            "Data": [
+                7.308
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                185.2489896740176
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                0.7707096200143135
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                0.7675164457395627
+            ],
+            "Node Survivability [hours]": [
+                136.6775680813561
+            ],
+            "Satellite Survivability [hours]": [
+                131.68191729044696
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                331.18634721110527
+            ],
+            "Jain Fairness Index": [
+                0.01787128712871287
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.900000000000006
+            ],
+            "Overhead": [
+                17.847
+            ],
+            "Data": [
+                5.985
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                148.17990576419734
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                0.4904564364914974
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                0.48883844409183386
+            ],
+            "Node Survivability [hours]": [
+                132.75512566687146
+            ],
+            "Satellite Survivability [hours]": [
+                128.61570166480408
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=5,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                11.318038446167327
+            ],
+            "Jain Fairness Index": [
+                0.8832034632034632
+            ],
+            "Throughput [kilobytes / hour]": [
+                42.42
+            ],
+            "Overhead": [
+                1.632
+            ],
+            "Data": [
+                6.363
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                174.38506665323172
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                106.20522680980929
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                66.0058668729027
+            ],
+            "Node Survivability [hours]": [
+                54.079040525504034
+            ],
+            "Satellite Survivability [hours]": [
+                142.36925102156343
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                100.15012560964684
+            ],
+            "Jain Fairness Index": [
+                0.8783402489626556
+            ],
+            "Throughput [kilobytes / hour]": [
+                105.84
+            ],
+            "Overhead": [
+                1.878
+            ],
+            "Data": [
+                15.876
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                510.5459919489886
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                76.08466648169939
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                66.21665772621188
+            ],
+            "Node Survivability [hours]": [
+                77.63741477724427
+            ],
+            "Satellite Survivability [hours]": [
+                167.05620552888675
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                174.03340403691092
+            ],
+            "Jain Fairness Index": [
+                0.7202951593860685
+            ],
+            "Throughput [kilobytes / hour]": [
+                103.74000000000001
+            ],
+            "Overhead": [
+                1.991
+            ],
+            "Data": [
+                15.561
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                497.4564032929985
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                54.406233827835905
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                49.04251090074629
+            ],
+            "Node Survivability [hours]": [
+                113.28076447669709
+            ],
+            "Satellite Survivability [hours]": [
+                166.06815267826417
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                203.07060551315354
+            ],
+            "Jain Fairness Index": [
+                0.5213734290843806
+            ],
+            "Throughput [kilobytes / hour]": [
+                101.22
+            ],
+            "Overhead": [
+                2.218
+            ],
+            "Data": [
+                15.183
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                482.806878489165
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                34.157273429736904
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                31.900406442300525
+            ],
+            "Node Survivability [hours]": [
+                145.78089430593107
+            ],
+            "Satellite Survivability [hours]": [
+                165.19035581739539
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                222.187239008976
+            ],
+            "Jain Fairness Index": [
+                0.3975826972010178
+            ],
+            "Throughput [kilobytes / hour]": [
+                105.0
+            ],
+            "Overhead": [
+                2.384
+            ],
+            "Data": [
+                15.75
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                502.59274742769026
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                26.334899878201078
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                25.023705511396138
+            ],
+            "Node Survivability [hours]": [
+                162.52395353404094
+            ],
+            "Satellite Survivability [hours]": [
+                165.7694478944359
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                228.28985325551983
+            ],
+            "Jain Fairness Index": [
+                0.301692037470726
+            ],
+            "Throughput [kilobytes / hour]": [
+                95.34
+            ],
+            "Overhead": [
+                2.673
+            ],
+            "Data": [
+                14.301
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                444.6737179023388
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                18.41510970456112
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                17.682817657734017
+            ],
+            "Node Survivability [hours]": [
+                166.88331009797366
+            ],
+            "Satellite Survivability [hours]": [
+                161.52653868674005
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                225.0684463071477
+            ],
+            "Jain Fairness Index": [
+                0.2479867549668874
+            ],
+            "Throughput [kilobytes / hour]": [
+                99.53999999999999
+            ],
+            "Overhead": [
+                2.844
+            ],
+            "Data": [
+                14.931
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                471.7363052644136
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                16.160078944604
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                15.624825640935414
+            ],
+            "Node Survivability [hours]": [
+                175.3353954206582
+            ],
+            "Satellite Survivability [hours]": [
+                164.12670005944517
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                250.28683973115386
+            ],
+            "Jain Fairness Index": [
+                0.13031325301204819
+            ],
+            "Throughput [kilobytes / hour]": [
+                87.36
+            ],
+            "Overhead": [
+                4.038
+            ],
+            "Data": [
+                13.104
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                401.46394099230173
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                7.277202473675896
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                7.1476396031661835
+            ],
+            "Node Survivability [hours]": [
+                179.93083039308536
+            ],
+            "Satellite Survivability [hours]": [
+                159.1517766076625
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                257.60889692518003
+            ],
+            "Jain Fairness Index": [
+                0.062111801242236024
+            ],
+            "Throughput [kilobytes / hour]": [
+                84.0
+            ],
+            "Overhead": [
+                6.244
+            ],
+            "Data": [
+                12.6
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                381.2619766685872
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.559365872097394
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.5264438794454085
+            ],
+            "Node Survivability [hours]": [
+                183.05310199358024
+            ],
+            "Satellite Survivability [hours]": [
+                157.1888663807918
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                296.31634234483624
+            ],
+            "Jain Fairness Index": [
+                0.04147659574468085
+            ],
+            "Throughput [kilobytes / hour]": [
+                71.82000000000001
+            ],
+            "Overhead": [
+                8.486
+            ],
+            "Data": [
+                10.773
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                317.8059170634107
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.9729946578567343
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.9608215351858926
+            ],
+            "Node Survivability [hours]": [
+                178.01455559609633
+            ],
+            "Satellite Survivability [hours]": [
+                153.2477655213038
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                296.52144131414815
+            ],
+            "Jain Fairness Index": [
+                0.029030973451327435
+            ],
+            "Throughput [kilobytes / hour]": [
+                68.04
+            ],
+            "Overhead": [
+                10.873
+            ],
+            "Data": [
+                10.206
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                296.4590639811031
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.3787362131840006
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.3723538347743263
+            ],
+            "Node Survivability [hours]": [
+                175.07761437257153
+            ],
+            "Satellite Survivability [hours]": [
+                150.8960949999054
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                308.3025246506424
+            ],
+            "Jain Fairness Index": [
+                0.023148223350253808
+            ],
+            "Throughput [kilobytes / hour]": [
+                63.42
+            ],
+            "Overhead": [
+                13.174
+            ],
+            "Data": [
+                9.513
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                273.53834768865187
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.0149802909196861
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.0112280690889164
+            ],
+            "Node Survivability [hours]": [
+                172.84432579521618
+            ],
+            "Satellite Survivability [hours]": [
+                149.37212326006608
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=7,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                8.815361310575243
+            ],
+            "Jain Fairness Index": [
+                0.86426735218509
+            ],
+            "Throughput [kilobytes / hour]": [
+                34.440000000000005
+            ],
+            "Overhead": [
+                1.697
+            ],
+            "Data": [
+                5.166
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                170.93599479473914
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                95.53331951732332
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                61.28316519257131
+            ],
+            "Node Survivability [hours]": [
+                59.91636764152682
+            ],
+            "Satellite Survivability [hours]": [
+                171.88894807582483
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                77.90297333279518
+            ],
+            "Jain Fairness Index": [
+                0.7654444444444445
+            ],
+            "Throughput [kilobytes / hour]": [
+                69.72
+            ],
+            "Overhead": [
+                1.922
+            ],
+            "Data": [
+                10.458
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                399.38488574962264
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                62.478531404931175
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                54.02675379810955
+            ],
+            "Node Survivability [hours]": [
+                96.78257876839595
+            ],
+            "Satellite Survivability [hours]": [
+                198.3863649351826
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                138.3178792783125
+            ],
+            "Jain Fairness Index": [
+                0.5531428571428572
+            ],
+            "Throughput [kilobytes / hour]": [
+                73.92
+            ],
+            "Overhead": [
+                2.029
+            ],
+            "Data": [
+                11.088
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                418.02219410827576
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                47.224582593508934
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                42.43108092340356
+            ],
+            "Node Survivability [hours]": [
+                137.99391017583778
+            ],
+            "Satellite Survivability [hours]": [
+                195.84611236955908
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                169.06019508821558
+            ],
+            "Jain Fairness Index": [
+                0.3679287598944591
+            ],
+            "Throughput [kilobytes / hour]": [
+                70.14000000000001
+            ],
+            "Overhead": [
+                2.299
+            ],
+            "Data": [
+                10.521
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                390.2040369564091
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                28.426483102442017
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                26.49622502794754
+            ],
+            "Node Survivability [hours]": [
+                175.0818463110201
+            ],
+            "Satellite Survivability [hours]": [
+                192.66532945358367
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                171.84581804191146
+            ],
+            "Jain Fairness Index": [
+                0.3056716417910448
+            ],
+            "Throughput [kilobytes / hour]": [
+                80.64
+            ],
+            "Overhead": [
+                2.439
+            ],
+            "Data": [
+                12.096
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                450.913769180602
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                24.315395289982785
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                23.07128299151565
+            ],
+            "Node Survivability [hours]": [
+                195.39156929450454
+            ],
+            "Satellite Survivability [hours]": [
+                193.65135979988358
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                191.20771174879695
+            ],
+            "Jain Fairness Index": [
+                0.2383845208845209
+            ],
+            "Throughput [kilobytes / hour]": [
+                82.74
+            ],
+            "Overhead": [
+                2.637
+            ],
+            "Data": [
+                12.411
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                463.65547847067563
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                19.852486046744605
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                19.037357380499046
+            ],
+            "Node Survivability [hours]": [
+                207.30659831263404
+            ],
+            "Satellite Survivability [hours]": [
+                194.06957372971283
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                187.41310911543331
+            ],
+            "Jain Fairness Index": [
+                0.1628140703517588
+            ],
+            "Throughput [kilobytes / hour]": [
+                75.60000000000001
+            ],
+            "Overhead": [
+                2.803
+            ],
+            "Data": [
+                11.34
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                423.89647594410616
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                15.104780714711838
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                14.585068306196238
+            ],
+            "Node Survivability [hours]": [
+                215.7825816387406
+            ],
+            "Satellite Survivability [hours]": [
+                194.18495707534765
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                217.17554427244244
+            ],
+            "Jain Fairness Index": [
+                0.09228813559322034
+            ],
+            "Throughput [kilobytes / hour]": [
+                69.3
+            ],
+            "Overhead": [
+                3.864
+            ],
+            "Data": [
+                10.395
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                373.4405994421824
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                7.135638097844133
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                7.001848002612427
+            ],
+            "Node Survivability [hours]": [
+                222.40949915358334
+            ],
+            "Satellite Survivability [hours]": [
+                186.62330216279454
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                258.77563394805844
+            ],
+            "Jain Fairness Index": [
+                0.05489814814814815
+            ],
+            "Throughput [kilobytes / hour]": [
+                64.68
+            ],
+            "Overhead": [
+                5.783
+            ],
+            "Data": [
+                9.702
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                347.33633868572986
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.4267113681089385
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.3932347781473537
+            ],
+            "Node Survivability [hours]": [
+                228.87126020764708
+            ],
+            "Satellite Survivability [hours]": [
+                185.97637726289727
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                267.405693160925
+            ],
+            "Jain Fairness Index": [
+                0.03878787878787879
+            ],
+            "Throughput [kilobytes / hour]": [
+                67.2
+            ],
+            "Overhead": [
+                8.064
+            ],
+            "Data": [
+                10.08
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                346.30157548764447
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.3028612342485997
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.2876486629053505
+            ],
+            "Node Survivability [hours]": [
+                222.06161901682927
+            ],
+            "Satellite Survivability [hours]": [
+                178.46899051023965
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                256.21851937108437
+            ],
+            "Jain Fairness Index": [
+                0.02846694214876033
+            ],
+            "Throughput [kilobytes / hour]": [
+                69.72
+            ],
+            "Overhead": [
+                10.015
+            ],
+            "Data": [
+                10.458
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                361.65819836388687
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.8216728760872645
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.8125430938625944
+            ],
+            "Node Survivability [hours]": [
+                225.7494786201085
+            ],
+            "Satellite Survivability [hours]": [
+                179.64639595149353
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                260.64385032404607
+            ],
+            "Jain Fairness Index": [
+                0.02243106796116505
+            ],
+            "Throughput [kilobytes / hour]": [
+                63.84
+            ],
+            "Overhead": [
+                12.265
+            ],
+            "Data": [
+                9.576
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                325.57559755902076
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.3038506551279514
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.2986498799181136
+            ],
+            "Node Survivability [hours]": [
+                220.57623864946544
+            ],
+            "Satellite Survivability [hours]": [
+                176.61864183370938
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=9,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                15.392623937588297
+            ],
+            "Jain Fairness Index": [
+                0.8979674796747967
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.48
+            ],
+            "Overhead": [
+                1.714
+            ],
+            "Data": [
+                5.922
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                197.25273717291464
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                111.66477940687766
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                71.3011797701897
+            ],
+            "Node Survivability [hours]": [
+                61.093192380662536
+            ],
+            "Satellite Survivability [hours]": [
+                173.03082051095186
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                94.41901223544724
+            ],
+            "Jain Fairness Index": [
+                0.8363463569165787
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.58000000000001
+            ],
+            "Overhead": [
+                1.851
+            ],
+            "Data": [
+                12.537
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                481.1558130183606
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                76.25255486779793
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                65.82132982911311
+            ],
+            "Node Survivability [hours]": [
+                98.53165740275395
+            ],
+            "Satellite Survivability [hours]": [
+                199.3705206562798
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                150.21515511104639
+            ],
+            "Jain Fairness Index": [
+                0.623112582781457
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.48
+            ],
+            "Overhead": [
+                1.952
+            ],
+            "Data": [
+                12.222
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                464.3261215571344
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                54.737060584652234
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                48.964842664889495
+            ],
+            "Node Survivability [hours]": [
+                145.1056097973108
+            ],
+            "Satellite Survivability [hours]": [
+                197.35569761618405
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                176.05370935857894
+            ],
+            "Jain Fairness Index": [
+                0.4176003824091778
+            ],
+            "Throughput [kilobytes / hour]": [
+                87.78
+            ],
+            "Overhead": [
+                2.114
+            ],
+            "Data": [
+                13.167
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                512.2555359842677
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                38.40097179698449
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                35.72301446039637
+            ],
+            "Node Survivability [hours]": [
+                188.9863273672511
+            ],
+            "Satellite Survivability [hours]": [
+                202.10109047855045
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                193.9601891780402
+            ],
+            "Jain Fairness Index": [
+                0.2913980868285504
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.58000000000001
+            ],
+            "Overhead": [
+                2.268
+            ],
+            "Data": [
+                12.537
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                494.82745797700284
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                27.702103478453626
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                26.233465924257814
+            ],
+            "Node Survivability [hours]": [
+                214.7758202206024
+            ],
+            "Satellite Survivability [hours]": [
+                205.03546930676671
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                191.18363613833515
+            ],
+            "Jain Fairness Index": [
+                0.21771628498727735
+            ],
+            "Throughput [kilobytes / hour]": [
+                77.7
+            ],
+            "Overhead": [
+                2.518
+            ],
+            "Data": [
+                11.655
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                439.59782639532665
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                19.764175802963905
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                18.913816732555105
+            ],
+            "Node Survivability [hours]": [
+                219.77153016423185
+            ],
+            "Satellite Survivability [hours]": [
+                195.93503119334562
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                200.75422226624622
+            ],
+            "Jain Fairness Index": [
+                0.1574592445328032
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.58000000000001
+            ],
+            "Overhead": [
+                2.675
+            ],
+            "Data": [
+                12.537
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                477.855134350882
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                17.802660207730714
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                17.163237779694143
+            ],
+            "Node Survivability [hours]": [
+                230.04155329443847
+            ],
+            "Satellite Survivability [hours]": [
+                198.00285968939633
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                215.90149953492144
+            ],
+            "Jain Fairness Index": [
+                0.10574202898550725
+            ],
+            "Throughput [kilobytes / hour]": [
+                80.22
+            ],
+            "Overhead": [
+                3.611
+            ],
+            "Data": [
+                12.033
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                458.1268608030552
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                9.174847246000262
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                8.994711328374636
+            ],
+            "Node Survivability [hours]": [
+                247.04151148542218
+            ],
+            "Satellite Survivability [hours]": [
+                197.77922517241845
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                243.5279148884421
+            ],
+            "Jain Fairness Index": [
+                0.061394557823129255
+            ],
+            "Throughput [kilobytes / hour]": [
+                79.80000000000001
+            ],
+            "Overhead": [
+                5.218
+            ],
+            "Data": [
+                11.97
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                446.8620534381378
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.701343880459242
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.65239696754828
+            ],
+            "Node Survivability [hours]": [
+                254.5088416489214
+            ],
+            "Satellite Survivability [hours]": [
+                193.9314114620249
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                254.60299455040993
+            ],
+            "Jain Fairness Index": [
+                0.03840148148148148
+            ],
+            "Throughput [kilobytes / hour]": [
+                67.62
+            ],
+            "Overhead": [
+                7.06
+            ],
+            "Data": [
+                10.143
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                371.24239631000205
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.5905399642530806
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.5725883696898104
+            ],
+            "Node Survivability [hours]": [
+                248.25050234191013
+            ],
+            "Satellite Survivability [hours]": [
+                190.1340826531794
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                259.2979358133275
+            ],
+            "Jain Fairness Index": [
+                0.03307805429864254
+            ],
+            "Throughput [kilobytes / hour]": [
+                71.82000000000001
+            ],
+            "Overhead": [
+                8.724
+            ],
+            "Data": [
+                10.773
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                394.18678183606164
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.090283369691267
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.0792575371381283
+            ],
+            "Node Survivability [hours]": [
+                251.46266101549074
+            ],
+            "Satellite Survivability [hours]": [
+                190.07903966230143
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                271.7695109537
+            ],
+            "Jain Fairness Index": [
+                0.023925233644859812
+            ],
+            "Throughput [kilobytes / hour]": [
+                67.2
+            ],
+            "Overhead": [
+                10.457
+            ],
+            "Data": [
+                10.08
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                359.7059739945818
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                1.5231097271158716
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                1.516687588519129
+            ],
+            "Node Survivability [hours]": [
+                244.7854918579079
+            ],
+            "Satellite Survivability [hours]": [
+                185.37704302649342
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=12,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                11.605482743424242
+            ],
+            "Jain Fairness Index": [
+                0.8727515583259128
+            ],
+            "Throughput [kilobytes / hour]": [
+                41.580000000000005
+            ],
+            "Overhead": [
+                1.802
+            ],
+            "Data": [
+                6.237
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                228.84992701096544
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                121.09121044853157
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                79.1896456472578
+            ],
+            "Node Survivability [hours]": [
+                62.90452490832808
+            ],
+            "Satellite Survivability [hours]": [
+                190.60920327666557
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                109.29900954027586
+            ],
+            "Jain Fairness Index": [
+                0.8081681681681682
+            ],
+            "Throughput [kilobytes / hour]": [
+                97.44
+            ],
+            "Overhead": [
+                1.771
+            ],
+            "Data": [
+                14.616
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                629.8426430384529
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                94.37309875368125
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                82.07526917829435
+            ],
+            "Node Survivability [hours]": [
+                104.60072521959744
+            ],
+            "Satellite Survivability [hours]": [
+                223.85786549371613
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                162.63210200722554
+            ],
+            "Jain Fairness Index": [
+                0.6226042841037204
+            ],
+            "Throughput [kilobytes / hour]": [
+                98.7
+            ],
+            "Overhead": [
+                1.861
+            ],
+            "Data": [
+                14.805
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                625.7677538984149
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                73.11635599938758
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                65.46701694743672
+            ],
+            "Node Survivability [hours]": [
+                160.01147817495155
+            ],
+            "Satellite Survivability [hours]": [
+                219.5703024621064
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                180.4789374685974
+            ],
+            "Jain Fairness Index": [
+                0.3356037735849057
+            ],
+            "Throughput [kilobytes / hour]": [
+                97.02000000000001
+            ],
+            "Overhead": [
+                2.014
+            ],
+            "Data": [
+                14.553
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                633.0523520625617
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                49.4646482471724
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                45.87975376819805
+            ],
+            "Node Survivability [hours]": [
+                220.25075286310533
+            ],
+            "Satellite Survivability [hours]": [
+                225.97267632066212
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                185.37119210182644
+            ],
+            "Jain Fairness Index": [
+                0.2804789272030651
+            ],
+            "Throughput [kilobytes / hour]": [
+                101.64
+            ],
+            "Overhead": [
+                2.157
+            ],
+            "Data": [
+                15.246
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                657.2884207348586
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                39.28138402357216
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                37.066204553737876
+            ],
+            "Node Survivability [hours]": [
+                250.43621455406097
+            ],
+            "Satellite Survivability [hours]": [
+                223.9591950697523
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                213.3669092605808
+            ],
+            "Jain Fairness Index": [
+                0.2637877263581489
+            ],
+            "Throughput [kilobytes / hour]": [
+                96.18
+            ],
+            "Overhead": [
+                2.316
+            ],
+            "Data": [
+                14.427
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                617.9164383487519
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                30.001136061005234
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                28.61196527678797
+            ],
+            "Node Survivability [hours]": [
+                269.5049028561917
+            ],
+            "Satellite Survivability [hours]": [
+                222.49617480654996
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                212.73047748321005
+            ],
+            "Jain Fairness Index": [
+                0.218501138952164
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.98
+            ],
+            "Overhead": [
+                2.548
+            ],
+            "Data": [
+                13.797
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                595.7272102187235
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                23.83982176897591
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                22.92250843138079
+            ],
+            "Node Survivability [hours]": [
+                279.91962938132184
+            ],
+            "Satellite Survivability [hours]": [
+                224.30120400407517
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                227.6500094742036
+            ],
+            "Jain Fairness Index": [
+                0.12620413436692507
+            ],
+            "Throughput [kilobytes / hour]": [
+                92.82000000000001
+            ],
+            "Overhead": [
+                3.313
+            ],
+            "Data": [
+                13.923
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                600.1938112688292
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                13.3091305229705
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                13.020406633953558
+            ],
+            "Node Survivability [hours]": [
+                309.7147374446917
+            ],
+            "Satellite Survivability [hours]": [
+                223.9378589944203
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                256.84143437566007
+            ],
+            "Jain Fairness Index": [
+                0.06078023598820059
+            ],
+            "Throughput [kilobytes / hour]": [
+                85.26
+            ],
+            "Overhead": [
+                4.68
+            ],
+            "Data": [
+                12.789
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                536.1984225747864
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                6.281643530014171
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                6.208905289655408
+            ],
+            "Node Survivability [hours]": [
+                318.28172706616493
+            ],
+            "Satellite Survivability [hours]": [
+                217.799950394206
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                273.00464023946154
+            ],
+            "Jain Fairness Index": [
+                0.03971702637889688
+            ],
+            "Throughput [kilobytes / hour]": [
+                76.44
+            ],
+            "Overhead": [
+                6.322
+            ],
+            "Data": [
+                11.466
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                468.9835820144669
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.659895516126124
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.631555264275102
+            ],
+            "Node Survivability [hours]": [
+                310.2580186354956
+            ],
+            "Satellite Survivability [hours]": [
+                212.478275933085
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                268.20682292097234
+            ],
+            "Jain Fairness Index": [
+                0.030906603773584906
+            ],
+            "Throughput [kilobytes / hour]": [
+                76.02000000000001
+            ],
+            "Overhead": [
+                7.677
+            ],
+            "Data": [
+                11.403
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                470.5869548667939
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.7807708638277573
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.7644353889383817
+            ],
+            "Node Survivability [hours]": [
+                316.04657015879803
+            ],
+            "Satellite Survivability [hours]": [
+                214.38262853126554
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                262.4590506502216
+            ],
+            "Jain Fairness Index": [
+                0.024924503311258277
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.48
+            ],
+            "Overhead": [
+                9.154
+            ],
+            "Data": [
+                12.222
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                507.58089203741633
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.431155073816736
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.4195661024847395
+            ],
+            "Node Survivability [hours]": [
+                322.24441331886044
+            ],
+            "Satellite Survivability [hours]": [
+                215.74056766126412
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=15,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                15.003641699840859
+            ],
+            "Jain Fairness Index": [
+                0.8487733071638862
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.06
+            ],
+            "Overhead": [
+                1.81
+            ],
+            "Data": [
+                5.859
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                225.75262087626936
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                117.97884870003509
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                77.4850040202249
+            ],
+            "Node Survivability [hours]": [
+                65.24175964978899
+            ],
+            "Satellite Survivability [hours]": [
+                200.16038827923606
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                86.53033034914831
+            ],
+            "Jain Fairness Index": [
+                0.8523121951219512
+            ],
+            "Throughput [kilobytes / hour]": [
+                87.78
+            ],
+            "Overhead": [
+                1.771
+            ],
+            "Data": [
+                13.167
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                583.98721153103
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                92.60004708935071
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                79.92648782304904
+            ],
+            "Node Survivability [hours]": [
+                113.93033818238641
+            ],
+            "Satellite Survivability [hours]": [
+                230.401516401716
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                143.02748631295546
+            ],
+            "Jain Fairness Index": [
+                0.6018289085545723
+            ],
+            "Throughput [kilobytes / hour]": [
+                84.84
+            ],
+            "Overhead": [
+                1.897
+            ],
+            "Data": [
+                12.726
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                561.9050769222281
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                67.49575792407634
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                60.2576402008007
+            ],
+            "Node Survivability [hours]": [
+                171.84209938237257
+            ],
+            "Satellite Survivability [hours]": [
+                229.3717188115347
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                170.57688367963084
+            ],
+            "Jain Fairness Index": [
+                0.3681350482315113
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.88
+            ],
+            "Overhead": [
+                1.993
+            ],
+            "Data": [
+                13.482
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                607.977194856366
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                49.01200823618924
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                45.35566664025914
+            ],
+            "Node Survivability [hours]": [
+                235.5717351806159
+            ],
+            "Satellite Survivability [hours]": [
+                234.26197387923534
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                194.32667248605046
+            ],
+            "Jain Fairness Index": [
+                0.2880242424242424
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                2.168
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                623.7742556286754
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                37.76236966750899
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                35.60678748448601
+            ],
+            "Node Survivability [hours]": [
+                267.2566136363677
+            ],
+            "Satellite Survivability [hours]": [
+                235.93872893110841
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                207.60946550713953
+            ],
+            "Jain Fairness Index": [
+                0.22703831041257366
+            ],
+            "Throughput [kilobytes / hour]": [
+                90.3
+            ],
+            "Overhead": [
+                2.321
+            ],
+            "Data": [
+                13.545
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                616.7691738712012
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                30.19005802176307
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                28.78125270849688
+            ],
+            "Node Survivability [hours]": [
+                288.8616847265038
+            ],
+            "Satellite Survivability [hours]": [
+                236.54429711525407
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                199.09949516599048
+            ],
+            "Jain Fairness Index": [
+                0.15978260869565217
+            ],
+            "Throughput [kilobytes / hour]": [
+                88.2
+            ],
+            "Overhead": [
+                2.406
+            ],
+            "Data": [
+                13.23
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                605.0137855318476
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                25.116847605860816
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                24.115696415170852
+            ],
+            "Node Survivability [hours]": [
+                307.5532359901324
+            ],
+            "Satellite Survivability [hours]": [
+                237.56051497209688
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                217.00798120257488
+            ],
+            "Jain Fairness Index": [
+                0.10082117647058823
+            ],
+            "Throughput [kilobytes / hour]": [
+                86.94000000000001
+            ],
+            "Overhead": [
+                3.215
+            ],
+            "Data": [
+                13.041
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                573.4350034459615
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                13.168692873847037
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                12.873068292730919
+            ],
+            "Node Survivability [hours]": [
+                327.17249376017486
+            ],
+            "Satellite Survivability [hours]": [
+                228.4242125528012
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                233.8567255332011
+            ],
+            "Jain Fairness Index": [
+                0.04836571428571428
+            ],
+            "Throughput [kilobytes / hour]": [
+                77.28
+            ],
+            "Overhead": [
+                4.474
+            ],
+            "Data": [
+                11.592
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                514.2286000773145
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                6.195387289114441
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                6.121634301946508
+            ],
+            "Node Survivability [hours]": [
+                346.3259975281365
+            ],
+            "Satellite Survivability [hours]": [
+                230.44468009675927
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                261.1962630722539
+            ],
+            "Jain Fairness Index": [
+                0.03941693121693122
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.06
+            ],
+            "Overhead": [
+                5.859
+            ],
+            "Data": [
+                12.159
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                524.6126716210897
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.315307312300799
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.280100482748789
+            ],
+            "Node Survivability [hours]": [
+                344.96905235269156
+            ],
+            "Satellite Survivability [hours]": [
+                224.13503631361436
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                270.87289395761655
+            ],
+            "Jain Fairness Index": [
+                0.02668266475644699
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.06
+            ],
+            "Overhead": [
+                7.245
+            ],
+            "Data": [
+                12.159
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                529.934362259179
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.2935066400513007
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.2731641436801815
+            ],
+            "Node Survivability [hours]": [
+                351.04733987223335
+            ],
+            "Satellite Survivability [hours]": [
+                226.40867053737833
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                279.31700141051294
+            ],
+            "Jain Fairness Index": [
+                0.0254259385665529
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.06
+            ],
+            "Overhead": [
+                8.546
+            ],
+            "Data": [
+                12.159
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                529.934362259179
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                2.652198569237654
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                2.6389910312184353
+            ],
+            "Node Survivability [hours]": [
+                353.36472425076073
+            ],
+            "Satellite Survivability [hours]": [
+                226.40867053737833
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=18,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                17.142126541012633
+            ],
+            "Jain Fairness Index": [
+                0.8891625615763546
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.900000000000006
+            ],
+            "Overhead": [
+                1.855
+            ],
+            "Data": [
+                5.985
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                245.39453316241298
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                122.55533678904446
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                81.7350734812802
+            ],
+            "Node Survivability [hours]": [
+                66.34574623166317
+            ],
+            "Satellite Survivability [hours]": [
+                212.99507449826282
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                117.3494252770606
+            ],
+            "Jain Fairness Index": [
+                0.792
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.16000000000001
+            ],
+            "Overhead": [
+                1.812
+            ],
+            "Data": [
+                12.474
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                572.1055217258859
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                95.23453944976968
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                81.64384104597274
+            ],
+            "Node Survivability [hours]": [
+                123.68122006463595
+            ],
+            "Satellite Survivability [hours]": [
+                238.25346835510916
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                148.6641706764266
+            ],
+            "Jain Fairness Index": [
+                0.5910945273631841
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                1.85
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                640.9979013620921
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                77.95579087543949
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                69.50308328574472
+            ],
+            "Node Survivability [hours]": [
+                183.90619079395947
+            ],
+            "Satellite Survivability [hours]": [
+                242.4534657052422
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                175.3675212299115
+            ],
+            "Jain Fairness Index": [
+                0.40408227848101264
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.92
+            ],
+            "Overhead": [
+                1.969
+            ],
+            "Data": [
+                14.238
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                683.7697520449885
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                56.19204806444524
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                51.92487337352207
+            ],
+            "Node Survivability [hours]": [
+                255.74130598230448
+            ],
+            "Satellite Survivability [hours]": [
+                249.4765492290565
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                208.39618100992342
+            ],
+            "Jain Fairness Index": [
+                0.2976086956521739
+            ],
+            "Throughput [kilobytes / hour]": [
+                93.24000000000001
+            ],
+            "Overhead": [
+                2.123
+            ],
+            "Data": [
+                13.986
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                658.1658581993689
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                42.385175745777104
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                39.82076139771252
+            ],
+            "Node Survivability [hours]": [
+                294.5687889667907
+            ],
+            "Satellite Survivability [hours]": [
+                244.4616044740513
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                196.9096443852212
+            ],
+            "Jain Fairness Index": [
+                0.22682562620423893
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.14
+            ],
+            "Overhead": [
+                2.301
+            ],
+            "Data": [
+                13.671
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                653.962785920107
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                33.64235944417881
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                31.99634449417184
+            ],
+            "Node Survivability [hours]": [
+                318.92690980656675
+            ],
+            "Satellite Survivability [hours]": [
+                248.4972482113797
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                216.3877356759697
+            ],
+            "Jain Fairness Index": [
+                0.16067213114754098
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.16000000000001
+            ],
+            "Overhead": [
+                2.418
+            ],
+            "Data": [
+                12.474
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                578.7724840249479
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                25.68364707781897
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                24.592335908529485
+            ],
+            "Node Survivability [hours]": [
+                333.5538581534931
+            ],
+            "Satellite Survivability [hours]": [
+                241.02992624761904
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                229.0994421326698
+            ],
+            "Jain Fairness Index": [
+                0.10214545454545454
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.04
+            ],
+            "Overhead": [
+                3.065
+            ],
+            "Data": [
+                13.356
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                634.1255594663356
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                15.579699193451024
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                15.206103591871447
+            ],
+            "Node Survivability [hours]": [
+                377.9441852858739
+            ],
+            "Satellite Survivability [hours]": [
+                246.64236719943997
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                235.56740315308824
+            ],
+            "Jain Fairness Index": [
+                0.051
+            ],
+            "Throughput [kilobytes / hour]": [
+                85.68
+            ],
+            "Overhead": [
+                4.414
+            ],
+            "Data": [
+                12.852
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                593.2082036983479
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                7.727511941507549
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                7.6281428421978825
+            ],
+            "Node Survivability [hours]": [
+                389.62245083231335
+            ],
+            "Satellite Survivability [hours]": [
+                239.7757529234499
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                247.33645376424732
+            ],
+            "Jain Fairness Index": [
+                0.038185430463576156
+            ],
+            "Throughput [kilobytes / hour]": [
+                78.12
+            ],
+            "Overhead": [
+                5.718
+            ],
+            "Data": [
+                11.718
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                536.7998802783958
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.702867569326637
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.66202389223999
+            ],
+            "Node Survivability [hours]": [
+                390.09961404552746
+            ],
+            "Satellite Survivability [hours]": [
+                237.97303448286488
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                263.1253588684208
+            ],
+            "Jain Fairness Index": [
+                0.02800083612040134
+            ],
+            "Throughput [kilobytes / hour]": [
+                76.86
+            ],
+            "Overhead": [
+                7.084
+            ],
+            "Data": [
+                11.529
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                523.4706548012771
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.4601069792953534
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.4373860808841235
+            ],
+            "Node Survivability [hours]": [
+                388.95816160697177
+            ],
+            "Satellite Survivability [hours]": [
+                235.86827630858483
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                284.17880944542577
+            ],
+            "Jain Fairness Index": [
+                0.024580722891566265
+            ],
+            "Throughput [kilobytes / hour]": [
+                84.84
+            ],
+            "Overhead": [
+                8.216
+            ],
+            "Data": [
+                12.726
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                588.4130183019811
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.1843112249633743
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.1671714620345326
+            ],
+            "Node Survivability [hours]": [
+                405.3578645639373
+            ],
+            "Satellite Survivability [hours]": [
+                240.1923579659855
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=21,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                19.0395830540383
+            ],
+            "Jain Fairness Index": [
+                0.8696850393700788
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.48
+            ],
+            "Overhead": [
+                1.879
+            ],
+            "Data": [
+                5.922
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                243.48052417667049
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                123.40231387374102
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                81.89551799766662
+            ],
+            "Node Survivability [hours]": [
+                67.51494376070937
+            ],
+            "Satellite Survivability [hours]": [
+                213.58200388263555
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                126.42762781259616
+            ],
+            "Jain Fairness Index": [
+                0.8225095057034221
+            ],
+            "Throughput [kilobytes / hour]": [
+                87.36
+            ],
+            "Overhead": [
+                1.793
+            ],
+            "Data": [
+                13.104
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                598.4691117528195
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                101.16951006099781
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                86.54014363258746
+            ],
+            "Node Survivability [hours]": [
+                125.07219650398083
+            ],
+            "Satellite Survivability [hours]": [
+                237.25025501629628
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                149.07238521675444
+            ],
+            "Jain Fairness Index": [
+                0.5663205417607223
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.08
+            ],
+            "Overhead": [
+                1.805
+            ],
+            "Data": [
+                14.112
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                670.2635326231994
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                82.1268807455839
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                73.16235325938187
+            ],
+            "Node Survivability [hours]": [
+                188.5566139566977
+            ],
+            "Satellite Survivability [hours]": [
+                246.73221366716245
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                204.98846150752996
+            ],
+            "Jain Fairness Index": [
+                0.45895711500974656
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.14
+            ],
+            "Overhead": [
+                1.978
+            ],
+            "Data": [
+                13.671
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                644.6029532674103
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                55.34312267998993
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                50.96726954898018
+            ],
+            "Node Survivability [hours]": [
+                262.32421546802334
+            ],
+            "Satellite Survivability [hours]": [
+                244.94063504012456
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                185.69725988371232
+            ],
+            "Jain Fairness Index": [
+                0.25743961352657
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.98
+            ],
+            "Overhead": [
+                2.122
+            ],
+            "Data": [
+                13.797
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                649.3933826491948
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                42.70376322516604
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                40.06885654412896
+            ],
+            "Node Survivability [hours]": [
+                300.8484297663361
+            ],
+            "Satellite Survivability [hours]": [
+                244.5074106099904
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                208.58408132215217
+            ],
+            "Jain Fairness Index": [
+                0.2304006968641115
+            ],
+            "Throughput [kilobytes / hour]": [
+                96.60000000000001
+            ],
+            "Overhead": [
+                2.253
+            ],
+            "Data": [
+                14.49
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                675.4407601236787
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                36.17966627582834
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                34.340247108993665
+            ],
+            "Node Survivability [hours]": [
+                323.59453066579385
+            ],
+            "Satellite Survivability [hours]": [
+                242.15180543067538
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                205.16419962757078
+            ],
+            "Jain Fairness Index": [
+                0.16230456852791877
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.98
+            ],
+            "Overhead": [
+                2.33
+            ],
+            "Data": [
+                13.797
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                649.3933826491948
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                29.566098783633425
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                28.278607819608858
+            ],
+            "Node Survivability [hours]": [
+                347.1557587119384
+            ],
+            "Satellite Survivability [hours]": [
+                244.5074106099904
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                233.5129361295909
+            ],
+            "Jain Fairness Index": [
+                0.0983739837398374
+            ],
+            "Throughput [kilobytes / hour]": [
+                92.4
+            ],
+            "Overhead": [
+                2.959
+            ],
+            "Data": [
+                13.86
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                643.1467614622201
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                16.41649452802369
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                16.00788884821818
+            ],
+            "Node Survivability [hours]": [
+                383.7622097460084
+            ],
+            "Satellite Survivability [hours]": [
+                241.05474721817754
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                249.19143041126244
+            ],
+            "Jain Fairness Index": [
+                0.05719086651053864
+            ],
+            "Throughput [kilobytes / hour]": [
+                92.82000000000001
+            ],
+            "Overhead": [
+                4.252
+            ],
+            "Data": [
+                13.923
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                654.166896365688
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                8.825712193977582
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                8.708224917761719
+            ],
+            "Node Survivability [hours]": [
+                410.76359273845236
+            ],
+            "Satellite Survivability [hours]": [
+                244.0757159549289
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                255.57654759548717
+            ],
+            "Jain Fairness Index": [
+                0.03924148606811145
+            ],
+            "Throughput [kilobytes / hour]": [
+                81.9
+            ],
+            "Overhead": [
+                5.564
+            ],
+            "Data": [
+                12.285
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                567.3942285429185
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                5.118133420502167
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                5.072378443927993
+            ],
+            "Node Survivability [hours]": [
+                404.95121568808355
+            ],
+            "Satellite Survivability [hours]": [
+                239.92670235529124
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                253.93459348813823
+            ],
+            "Jain Fairness Index": [
+                0.026102549889135254
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.14
+            ],
+            "Overhead": [
+                6.693
+            ],
+            "Data": [
+                13.671
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                644.6029532674103
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.488830401663848
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.457787644873732
+            ],
+            "Node Survivability [hours]": [
+                425.5375759312667
+            ],
+            "Satellite Survivability [hours]": [
+                244.94063504012456
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                278.1709222703211
+            ],
+            "Jain Fairness Index": [
+                0.024246938775510204
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                7.905
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                647.0002880311657
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.6336910191783747
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.613397411946042
+            ],
+            "Node Survivability [hours]": [
+                428.61361956232474
+            ],
+            "Satellite Survivability [hours]": [
+                244.7238310954055
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=24,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                25.282447020583838
+            ],
+            "Jain Fairness Index": [
+                0.8821782178217822
+            ],
+            "Throughput [kilobytes / hour]": [
+                41.580000000000005
+            ],
+            "Overhead": [
+                1.873
+            ],
+            "Data": [
+                6.237
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                257.17673652336805
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                131.17950364295044
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                86.86951091915313
+            ],
+            "Node Survivability [hours]": [
+                68.14519669763658
+            ],
+            "Satellite Survivability [hours]": [
+                214.2026151822338
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                109.34029492018614
+            ],
+            "Jain Fairness Index": [
+                0.8530935251798561
+            ],
+            "Throughput [kilobytes / hour]": [
+                97.02000000000001
+            ],
+            "Overhead": [
+                1.739
+            ],
+            "Data": [
+                14.553
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                683.43394682543
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                108.33816485837195
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                93.51425556467473
+            ],
+            "Node Survivability [hours]": [
+                120.5990703432712
+            ],
+            "Satellite Survivability [hours]": [
+                243.9567557870366
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                162.40019713840826
+            ],
+            "Jain Fairness Index": [
+                0.545
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                1.861
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                624.0081355264375
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                81.43332566802519
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                72.03299000002193
+            ],
+            "Node Survivability [hours]": [
+                192.11007365982354
+            ],
+            "Satellite Survivability [hours]": [
+                236.02719254643495
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                190.40099669261315
+            ],
+            "Jain Fairness Index": [
+                0.3819469598965071
+            ],
+            "Throughput [kilobytes / hour]": [
+                102.06
+            ],
+            "Overhead": [
+                1.92
+            ],
+            "Data": [
+                15.309
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                733.2022917845393
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                62.403679887434706
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                57.50902172478959
+            ],
+            "Node Survivability [hours]": [
+                264.1425603700939
+            ],
+            "Satellite Survivability [hours]": [
+                248.79739142741684
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                183.7565685574764
+            ],
+            "Jain Fairness Index": [
+                0.2509893666204346
+            ],
+            "Throughput [kilobytes / hour]": [
+                97.86
+            ],
+            "Overhead": [
+                2.082
+            ],
+            "Data": [
+                14.679
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                688.1367632126774
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                46.17385134563564
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                43.27041442695338
+            ],
+            "Node Survivability [hours]": [
+                305.74959811947576
+            ],
+            "Satellite Survivability [hours]": [
+                243.52700167158636
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                202.51253355198008
+            ],
+            "Jain Fairness Index": [
+                0.21966875871687588
+            ],
+            "Throughput [kilobytes / hour]": [
+                105.42
+            ],
+            "Overhead": [
+                2.166
+            ],
+            "Data": [
+                15.813
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                740.6615616707504
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                40.64561548354389
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                38.53112568191002
+            ],
+            "Node Survivability [hours]": [
+                333.1228588292726
+            ],
+            "Satellite Survivability [hours]": [
+                243.31807250788682
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                201.13409748358944
+            ],
+            "Jain Fairness Index": [
+                0.15243324937027708
+            ],
+            "Throughput [kilobytes / hour]": [
+                103.32
+            ],
+            "Overhead": [
+                2.274
+            ],
+            "Data": [
+                15.498
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                729.1156168481134
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                33.91423088789466
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                32.40685203485226
+            ],
+            "Node Survivability [hours]": [
+                354.5041556225923
+            ],
+            "Satellite Survivability [hours]": [
+                244.3934576334094
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                234.0053669055409
+            ],
+            "Jain Fairness Index": [
+                0.09718875502008033
+            ],
+            "Throughput [kilobytes / hour]": [
+                92.4
+            ],
+            "Overhead": [
+                2.948
+            ],
+            "Data": [
+                13.86
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                647.4474503466287
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                16.760153848364435
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                16.337239754567975
+            ],
+            "Node Survivability [hours]": [
+                391.7958042474803
+            ],
+            "Satellite Survivability [hours]": [
+                242.66666775329486
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                245.43617141608695
+            ],
+            "Jain Fairness Index": [
+                0.048362302483069976
+            ],
+            "Throughput [kilobytes / hour]": [
+                86.94000000000001
+            ],
+            "Overhead": [
+                4.135
+            ],
+            "Data": [
+                13.041
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                607.0446203777901
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                8.306197816101308
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                8.194078159930692
+            ],
+            "Node Survivability [hours]": [
+                412.7303262659035
+            ],
+            "Satellite Survivability [hours]": [
+                241.81239122295406
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                244.26046452609918
+            ],
+            "Jain Fairness Index": [
+                0.04033333333333333
+            ],
+            "Throughput [kilobytes / hour]": [
+                101.64
+            ],
+            "Overhead": [
+                5.284
+            ],
+            "Data": [
+                15.246
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                709.0960087082938
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                6.775030772774599
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                6.7109116235975135
+            ],
+            "Node Survivability [hours]": [
+                431.9382074732331
+            ],
+            "Satellite Survivability [hours]": [
+                241.61169789045286
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                263.2162093026761
+            ],
+            "Jain Fairness Index": [
+                0.03287608695652174
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.46000000000001
+            ],
+            "Overhead": [
+                6.617
+            ],
+            "Data": [
+                13.419
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                630.7218892770247
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.452505471231685
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.42129387779331
+            ],
+            "Node Survivability [hours]": [
+                430.02064913304
+            ],
+            "Satellite Survivability [hours]": [
+                244.16678369597497
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                266.76451985378674
+            ],
+            "Jain Fairness Index": [
+                0.023744533333333335
+            ],
+            "Throughput [kilobytes / hour]": [
+                88.62
+            ],
+            "Overhead": [
+                7.821
+            ],
+            "Data": [
+                13.293
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                625.9051088657485
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.553243814238898
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.5331860271753497
+            ],
+            "Node Survivability [hours]": [
+                433.02903626472687
+            ],
+            "Satellite Survivability [hours]": [
+                244.59880083771841
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=27,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                22.739946432586734
+            ],
+            "Jain Fairness Index": [
+                0.8746812386156648
+            ],
+            "Throughput [kilobytes / hour]": [
+                41.160000000000004
+            ],
+            "Overhead": [
+                1.915
+            ],
+            "Data": [
+                6.174
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                262.81238585426973
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                132.55532216435037
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                88.11336831295692
+            ],
+            "Node Survivability [hours]": [
+                69.56255973639377
+            ],
+            "Satellite Survivability [hours]": [
+                221.13018821440892
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                110.89550927721332
+            ],
+            "Jain Fairness Index": [
+                0.826530612244898
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.50000000000001
+            ],
+            "Overhead": [
+                1.784
+            ],
+            "Data": [
+                14.175
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                670.4625450886927
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                110.63209926887693
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                94.96247270434546
+            ],
+            "Node Survivability [hours]": [
+                126.43668487871649
+            ],
+            "Satellite Survivability [hours]": [
+                245.7085593810752
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                158.0241194848368
+            ],
+            "Jain Fairness Index": [
+                0.6188624052004333
+            ],
+            "Throughput [kilobytes / hour]": [
+                100.38000000000001
+            ],
+            "Overhead": [
+                1.826
+            ],
+            "Data": [
+                15.057
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                726.38846497641
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                89.92197319740983
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                80.01647537993132
+            ],
+            "Node Survivability [hours]": [
+                193.49617663519152
+            ],
+            "Satellite Survivability [hours]": [
+                250.61053316460485
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                178.5713828840316
+            ],
+            "Jain Fairness Index": [
+                0.4035876418663304
+            ],
+            "Throughput [kilobytes / hour]": [
+                106.26
+            ],
+            "Overhead": [
+                1.939
+            ],
+            "Data": [
+                15.939
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                771.7400186273616
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                67.25457241478216
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                61.863384487006876
+            ],
+            "Node Survivability [hours]": [
+                273.4234451645577
+            ],
+            "Satellite Survivability [hours]": [
+                251.52362436573296
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                184.40589654125432
+            ],
+            "Jain Fairness Index": [
+                0.2484949215143121
+            ],
+            "Throughput [kilobytes / hour]": [
+                97.44
+            ],
+            "Overhead": [
+                2.08
+            ],
+            "Data": [
+                14.616
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                709.6159588511325
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                48.95492950448409
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                45.79558716802273
+            ],
+            "Node Survivability [hours]": [
+                325.5623390692292
+            ],
+            "Satellite Survivability [hours]": [
+                252.210795227139
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                199.49483751220333
+            ],
+            "Jain Fairness Index": [
+                0.18980718954248366
+            ],
+            "Throughput [kilobytes / hour]": [
+                101.22
+            ],
+            "Overhead": [
+                2.177
+            ],
+            "Data": [
+                15.183
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                731.1415870710982
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                41.61029773445907
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                39.36971196353468
+            ],
+            "Node Survivability [hours]": [
+                355.1797791204568
+            ],
+            "Satellite Survivability [hours]": [
+                250.15703856398216
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                212.26915203467874
+            ],
+            "Jain Fairness Index": [
+                0.16039737274220034
+            ],
+            "Throughput [kilobytes / hour]": [
+                92.82000000000001
+            ],
+            "Overhead": [
+                2.299
+            ],
+            "Data": [
+                13.923
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                671.6783204106717
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                32.50047466355673
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                31.000456684109977
+            ],
+            "Node Survivability [hours]": [
+                378.15678341565683
+            ],
+            "Satellite Survivability [hours]": [
+                250.6093901364187
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                229.38287259377233
+            ],
+            "Jain Fairness Index": [
+                0.09575572519083969
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.08
+            ],
+            "Overhead": [
+                2.886
+            ],
+            "Data": [
+                14.112
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                678.9498931460661
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                18.489198737377865
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                17.999047735048638
+            ],
+            "Node Survivability [hours]": [
+                424.4969097867367
+            ],
+            "Satellite Survivability [hours]": [
+                249.92976933922785
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                253.09975394353572
+            ],
+            "Jain Fairness Index": [
+                0.048432432432432435
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.08
+            ],
+            "Overhead": [
+                4.1
+            ],
+            "Data": [
+                14.112
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                678.9498931460661
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                9.83421417555312
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                9.69380476798604
+            ],
+            "Node Survivability [hours]": [
+                451.5710590815208
+            ],
+            "Satellite Survivability [hours]": [
+                249.92976933922785
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                260.9457320057124
+            ],
+            "Jain Fairness Index": [
+                0.036070621468926554
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.92
+            ],
+            "Overhead": [
+                5.232
+            ],
+            "Data": [
+                14.238
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                683.7757371990248
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                6.781036103640395
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                6.714448601473182
+            ],
+            "Node Survivability [hours]": [
+                462.9278755961837
+            ],
+            "Satellite Survivability [hours]": [
+                249.4787329401246
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                265.53006082167843
+            ],
+            "Jain Fairness Index": [
+                0.026452258726899384
+            ],
+            "Throughput [kilobytes / hour]": [
+                95.34
+            ],
+            "Overhead": [
+                6.365
+            ],
+            "Data": [
+                14.301
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                697.5038535034686
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                5.2555142800285415
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                5.216211452327078
+            ],
+            "Node Survivability [hours]": [
+                476.27064589308367
+            ],
+            "Satellite Survivability [hours]": [
+                253.36640921472753
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                272.39620579639904
+            ],
+            "Jain Fairness Index": [
+                0.02462383419689119
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                7.64
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                664.3670934396577
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.9935845906029197
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.969722148651212
+            ],
+            "Node Survivability [hours]": [
+                471.0650237932671
+            ],
+            "Satellite Survivability [hours]": [
+                251.29271712540657
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=31,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                26.913500685998947
+            ],
+            "Jain Fairness Index": [
+                0.8619866284622731
+            ],
+            "Throughput [kilobytes / hour]": [
+                39.900000000000006
+            ],
+            "Overhead": [
+                1.891
+            ],
+            "Data": [
+                5.985
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                264.6071414617608
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                130.05244863725486
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                87.1961749754331
+            ],
+            "Node Survivability [hours]": [
+                70.40433309685976
+            ],
+            "Satellite Survivability [hours]": [
+                229.67104067929077
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                97.10247059946789
+            ],
+            "Jain Fairness Index": [
+                0.7567515923566879
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.56
+            ],
+            "Overhead": [
+                1.76
+            ],
+            "Data": [
+                13.734
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                673.7648085105661
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                110.39178147617474
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                94.8510775235502
+            ],
+            "Node Survivability [hours]": [
+                130.21311052235552
+            ],
+            "Satellite Survivability [hours]": [
+                254.84734434619838
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                154.77952851047237
+            ],
+            "Jain Fairness Index": [
+                0.516310299869622
+            ],
+            "Throughput [kilobytes / hour]": [
+                83.58000000000001
+            ],
+            "Overhead": [
+                1.857
+            ],
+            "Data": [
+                12.537
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                614.3850064604454
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                81.89447893999765
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                72.26227546211324
+            ],
+            "Node Survivability [hours]": [
+                211.6440231040858
+            ],
+            "Satellite Survivability [hours]": [
+                254.57503641706325
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                178.95221686747664
+            ],
+            "Jain Fairness Index": [
+                0.3729315960912052
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.88
+            ],
+            "Overhead": [
+                1.95
+            ],
+            "Data": [
+                13.482
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                663.8497488362411
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                60.92168155353916
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                55.80082395942177
+            ],
+            "Node Survivability [hours]": [
+                292.81449077802534
+            ],
+            "Satellite Survivability [hours]": [
+                255.79043726854363
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                191.64428586703704
+            ],
+            "Jain Fairness Index": [
+                0.23779816513761468
+            ],
+            "Throughput [kilobytes / hour]": [
+                90.72000000000001
+            ],
+            "Overhead": [
+                2.066
+            ],
+            "Data": [
+                13.608
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                668.8164346964596
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                47.54228910884812
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                44.387069274708715
+            ],
+            "Node Survivability [hours]": [
+                339.5877793489151
+            ],
+            "Satellite Survivability [hours]": [
+                255.31801991190244
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                184.8039840923919
+            ],
+            "Jain Fairness Index": [
+                0.16786103542234332
+            ],
+            "Throughput [kilobytes / hour]": [
+                93.24000000000001
+            ],
+            "Overhead": [
+                2.172
+            ],
+            "Data": [
+                13.986
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                696.5024353857448
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                40.034054726031194
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                37.85802467276983
+            ],
+            "Node Survivability [hours]": [
+                370.9719356852311
+            ],
+            "Satellite Survivability [hours]": [
+                258.700904571848
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                190.81214343220196
+            ],
+            "Jain Fairness Index": [
+                0.1404054514480409
+            ],
+            "Throughput [kilobytes / hour]": [
+                85.26
+            ],
+            "Overhead": [
+                2.304
+            ],
+            "Data": [
+                12.789
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                624.4346389973126
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                30.811480492980294
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                29.36263966518907
+            ],
+            "Node Survivability [hours]": [
+                390.29320821509174
+            ],
+            "Satellite Survivability [hours]": [
+                253.64086814162476
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                224.31709583050943
+            ],
+            "Jain Fairness Index": [
+                0.07643537414965987
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.04
+            ],
+            "Overhead": [
+                2.881
+            ],
+            "Data": [
+                13.356
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                658.8646490926216
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                18.149363290493902
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                17.66281591950105
+            ],
+            "Node Survivability [hours]": [
+                440.2810501737065
+            ],
+            "Satellite Survivability [hours]": [
+                256.26460610260193
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                242.3001762585023
+            ],
+            "Jain Fairness Index": [
+                0.045018164435946466
+            ],
+            "Throughput [kilobytes / hour]": [
+                91.14
+            ],
+            "Overhead": [
+                3.991
+            ],
+            "Data": [
+                13.671
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                671.292904273807
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                9.933324347849194
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                9.788481227525985
+            ],
+            "Node Survivability [hours]": [
+                470.8356504576313
+            ],
+            "Satellite Survivability [hours]": [
+                255.08246500779555
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                245.34373451688427
+            ],
+            "Jain Fairness Index": [
+                0.03186885245901639
+            ],
+            "Throughput [kilobytes / hour]": [
+                90.72000000000001
+            ],
+            "Overhead": [
+                5.099
+            ],
+            "Data": [
+                13.608
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                681.5040695823567
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                6.871511615647914
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                6.802918723666171
+            ],
+            "Node Survivability [hours]": [
+                490.8222582605653
+            ],
+            "Satellite Survivability [hours]": [
+                260.1614741818362
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                261.06115117911605
+            ],
+            "Jain Fairness Index": [
+                0.024123076923076924
+            ],
+            "Throughput [kilobytes / hour]": [
+                94.08
+            ],
+            "Overhead": [
+                6.277
+            ],
+            "Data": [
+                14.112
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                701.4645373741981
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                5.395658244214315
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                5.354471701148486
+            ],
+            "Node Survivability [hours]": [
+                495.5196346727432
+            ],
+            "Satellite Survivability [hours]": [
+                258.2176855691245
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                275.5856148369055
+            ],
+            "Jain Fairness Index": [
+                0.021897560975609756
+            ],
+            "Throughput [kilobytes / hour]": [
+                84.42
+            ],
+            "Overhead": [
+                7.484
+            ],
+            "Data": [
+                12.663
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                619.4190590079993
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                3.765286711979186
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                3.7425368080049015
+            ],
+            "Node Survivability [hours]": [
+                481.6997925772946
+            ],
+            "Satellite Survivability [hours]": [
+                254.10709371671445
+            ]
+        }
+    },
+    "MSDQ_Sensitivity_Analysis-m=41,distribution=exponential,alpha=0.3,k=1": {
+        "10": {
+            "Average Delay [seconds]": [
+                33.273123331647824
+            ],
+            "Jain Fairness Index": [
+                0.8798336798336799
+            ],
+            "Throughput [kilobytes / hour]": [
+                38.64
+            ],
+            "Overhead": [
+                1.919
+            ],
+            "Data": [
+                5.796
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                263.1291719189211
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                135.0823609498537
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                89.25936805878719
+            ],
+            "Node Survivability [hours]": [
+                75.51187879184366
+            ],
+            "Satellite Survivability [hours]": [
+                235.83564911739325
+            ]
+        },
+        "50": {
+            "Average Delay [seconds]": [
+                121.91212224356251
+            ],
+            "Jain Fairness Index": [
+                0.7417303822937625
+            ],
+            "Throughput [kilobytes / hour]": [
+                80.64
+            ],
+            "Overhead": [
+                1.829
+            ],
+            "Data": [
+                12.096
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                587.137305726635
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                109.73001402859403
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                92.45172354577348
+            ],
+            "Node Survivability [hours]": [
+                146.95984021686704
+            ],
+            "Satellite Survivability [hours]": [
+                252.1545036200995
+            ]
+        },
+        "100": {
+            "Average Delay [seconds]": [
+                165.14196171104052
+            ],
+            "Jain Fairness Index": [
+                0.5500446428571428
+            ],
+            "Throughput [kilobytes / hour]": [
+                93.24000000000001
+            ],
+            "Overhead": [
+                1.841
+            ],
+            "Data": [
+                13.986
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                691.6504872701352
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                92.62937702555067
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                81.68914780540236
+            ],
+            "Node Survivability [hours]": [
+                214.58542940282004
+            ],
+            "Satellite Survivability [hours]": [
+                256.89875241462164
+            ]
+        },
+        "200": {
+            "Average Delay [seconds]": [
+                179.19480674601303
+            ],
+            "Jain Fairness Index": [
+                0.3391025641025641
+            ],
+            "Throughput [kilobytes / hour]": [
+                96.60000000000001
+            ],
+            "Overhead": [
+                1.927
+            ],
+            "Data": [
+                14.49
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                728.1610124325975
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                68.42148180851325
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                62.5445020773271
+            ],
+            "Node Survivability [hours]": [
+                305.98426647285424
+            ],
+            "Satellite Survivability [hours]": [
+                261.0525070658977
+            ]
+        },
+        "300": {
+            "Average Delay [seconds]": [
+                172.76511368785134
+            ],
+            "Jain Fairness Index": [
+                0.24446428571428572
+            ],
+            "Throughput [kilobytes / hour]": [
+                93.24000000000001
+            ],
+            "Overhead": [
+                2.042
+            ],
+            "Data": [
+                13.986
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                708.1829289211246
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                52.13507025111303
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                48.560164023656014
+            ],
+            "Node Survivability [hours]": [
+                362.3286735598589
+            ],
+            "Satellite Survivability [hours]": [
+                263.0393735992748
+            ]
+        },
+        "400": {
+            "Average Delay [seconds]": [
+                182.81404017632713
+            ],
+            "Jain Fairness Index": [
+                0.1479198966408269
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.88
+            ],
+            "Overhead": [
+                2.157
+            ],
+            "Data": [
+                13.482
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                671.7192406045226
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                41.26935676831476
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                38.8805951326503
+            ],
+            "Node Survivability [hours]": [
+                396.7147780131726
+            ],
+            "Satellite Survivability [hours]": [
+                258.8226606655076
+            ]
+        },
+        "500": {
+            "Average Delay [seconds]": [
+                173.98431736851242
+            ],
+            "Jain Fairness Index": [
+                0.12298630136986301
+            ],
+            "Throughput [kilobytes / hour]": [
+                84.42
+            ],
+            "Overhead": [
+                2.319
+            ],
+            "Data": [
+                12.663
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                623.8332836078794
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                32.389657440300894
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                30.79097832764395
+            ],
+            "Node Survivability [hours]": [
+                414.3666197053419
+            ],
+            "Satellite Survivability [hours]": [
+                255.9179611218678
+            ]
+        },
+        "1000": {
+            "Average Delay [seconds]": [
+                230.68833328512616
+            ],
+            "Jain Fairness Index": [
+                0.07895862068965517
+            ],
+            "Throughput [kilobytes / hour]": [
+                89.88
+            ],
+            "Overhead": [
+                2.818
+            ],
+            "Data": [
+                13.482
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                687.8984073544284
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                19.984000163308433
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                19.419838293644926
+            ],
+            "Node Survivability [hours]": [
+                480.2563457136874
+            ],
+            "Satellite Survivability [hours]": [
+                265.05671610479044
+            ]
+        },
+        "2000": {
+            "Average Delay [seconds]": [
+                228.68584033589215
+            ],
+            "Jain Fairness Index": [
+                0.03550853242320819
+            ],
+            "Throughput [kilobytes / hour]": [
+                85.68
+            ],
+            "Overhead": [
+                3.927
+            ],
+            "Data": [
+                12.852
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                631.390951472614
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                9.839916374628654
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                9.688919348261622
+            ],
+            "Node Survivability [hours]": [
+                496.13023737623473
+            ],
+            "Satellite Survivability [hours]": [
+                255.20928374649355
+            ]
+        },
+        "3000": {
+            "Average Delay [seconds]": [
+                240.9412875701572
+            ],
+            "Jain Fairness Index": [
+                0.02937871148459384
+            ],
+            "Throughput [kilobytes / hour]": [
+                96.18
+            ],
+            "Overhead": [
+                4.943
+            ],
+            "Data": [
+                14.427
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                725.6802727555612
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                7.8496478916391865
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                7.765647266322703
+            ],
+            "Node Survivability [hours]": [
+                528.8596208964641
+            ],
+            "Satellite Survivability [hours]": [
+                261.29922235465375
+            ]
+        },
+        "4000": {
+            "Average Delay [seconds]": [
+                267.766910647436
+            ],
+            "Jain Fairness Index": [
+                0.022127733598409544
+            ],
+            "Throughput [kilobytes / hour]": [
+                88.62
+            ],
+            "Overhead": [
+                6.079
+            ],
+            "Data": [
+                13.293
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                664.1678417914204
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                5.374127011772054
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                5.330991192832603
+            ],
+            "Node Survivability [hours]": [
+                523.9500945803493
+            ],
+            "Satellite Survivability [hours]": [
+                259.55157635884075
+            ]
+        },
+        "5000": {
+            "Average Delay [seconds]": [
+                275.96954542069903
+            ],
+            "Jain Fairness Index": [
+                0.018612280701754386
+            ],
+            "Throughput [kilobytes / hour]": [
+                86.52
+            ],
+            "Overhead": [
+                7.205
+            ],
+            "Data": [
+                12.978
+            ],
+            "Satellite Energy Efficiency [bytes / joule]": [
+                651.4872121889599
+            ],
+            "Average Energy Efficiency per Node [bytes / joule]": [
+                4.224512223752183
+            ],
+            "Network Energy Efficiency [bytes / joule]": [
+                4.197295227526263
+            ],
+            "Node Survivability [hours]": [
+                527.3316229371657
+            ],
+            "Satellite Survivability [hours]": [
+                260.77560254886805
+            ]
+        }
+    }
+}
