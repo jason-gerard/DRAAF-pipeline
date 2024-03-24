@@ -64,7 +64,7 @@ for data_source in data_sources:
 for file_name in sca_files:
     print(file_name)
     data_source = ",".join(file_name.split(",")[:-1])
-    
+
     raw_file_path = os.path.join(DEFAULT_INPUT_PATH, file_name)  # From
     raw_data_data_source_path = os.path.join(DATA_SOURCES_PATH, data_source, constants.RAW_DATA_DIR)  # To
     Path(raw_data_data_source_path).mkdir(parents=True, exist_ok=True)
@@ -83,10 +83,10 @@ for file_name in sca_files:
     df1 = df[df["name"].isin(rows_to_keep)]
     df2 = df[df['name'].str.startswith("numDataPacketsReceivedByNodeId", na=False)]
     df = pd.concat([df1, df2])
-    
+
     data_dir_path = os.path.join(DATA_SOURCES_PATH, data_source, constants.DATA_DIR)
     Path(data_dir_path).mkdir(parents=True, exist_ok=True)
-    
+
     data_file_path = os.path.join(data_dir_path, file_name)
 
     # Save filtered df to data source folder
