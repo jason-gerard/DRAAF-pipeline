@@ -34,8 +34,8 @@ class GenericPlotter:
         self.node_counts = node_counts
     
     def plot(self, metric_names, label, ylims, is_log=False, show_metric_name=False, legend_pos="lower left"):
-        plt.rcParams.update({'font.size': 16})
-        plt.rc('legend', fontsize=12)
+        plt.rcParams.update({'font.size': 18})
+        plt.rc('legend', fontsize=14)
         plt.rcParams.update({'font.family': 'Times New Roman'})
 
         fig = plt.figure()
@@ -59,7 +59,7 @@ class GenericPlotter:
                 if "Survivability" in key_label:
                     key_label = f"{metric_name.split(' ')[0]} - {protocol_name}"
 
-                plt.errorbar(x, y, yerr=y_err, label=key_label, capsize=4, clip_on=False, linewidth=2)
+                plt.errorbar(x, y, yerr=y_err, label=key_label, capsize=4, clip_on=False, linewidth=2.5)
 
         if "Energy Efficiency" in label:
             y_label = "Energy Efficiency [bytes / joule]"
