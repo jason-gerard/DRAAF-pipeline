@@ -87,6 +87,8 @@ class GenericPlotter:
             ax.set_yticks(np.arange(ylims[0], ylims[1] + 1, 50))
             if len(ax.get_yticks()) < 5:
                 ax.set_yticks(np.arange(ylims[0], ylims[1] + 1, 10))
+            if len(ax.get_yticks()) > 12:
+                ax.set_yticks(np.arange(ylims[0], ylims[1] + 1, 100))
 
         file_name = f"{label.replace(' ', '_').replace('/', '_')}"
         self.graph_manager.save_plot(file_name)
