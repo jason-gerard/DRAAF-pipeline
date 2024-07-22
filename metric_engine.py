@@ -1,5 +1,5 @@
-import DRAAF_pipeline.constants as constants
-from DRAAF_pipeline.protocol_definitions import ProtocolStrategy
+import constants as constants
+from protocol_definitions import ProtocolStrategy
 
 
 class MetricEngine:

@@ -2,9 +2,9 @@ import pandas as pd
 import os
 import json
 
-from DRAAF_pipeline.metric_engine import MetricEngine
-from DRAAF_pipeline.protocol_definitions import ProtocolStrategyFactory
-import DRAAF_pipeline.constants as constants
+from metric_engine import MetricEngine
+from protocol_definitions import ProtocolStrategyFactory
+import constants as constants
 
 
 class ETLPipeline:

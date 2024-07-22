@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-import DRAAF_pipeline.constants as constants
+import constants as constants
 
 
 class ProtocolStrategy(ABC):
