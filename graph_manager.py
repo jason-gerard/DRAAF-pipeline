@@ -2,7 +2,7 @@ import json
 import os
 import numpy as np
 from pathlib import Path
-import DRAAF_pipeline.constants as constants
+import constants as constants
 import matplotlib.pyplot as plt
 
 

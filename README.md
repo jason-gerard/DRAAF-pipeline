@@ -5,7 +5,7 @@ DRAAF is a framework designed to enable rapid testing of satellite based simulat
 ## Project Structure
 
 - The workspaces encapsulate each experiment.
-- The data sources store the simulation data in the raw format and the transformed and filtered format. These data sources are decoupled from the specific workspace experiments, allowing users to mix and match wht data is used without duplicating data sources.
+- The data sources store the simulation data in the raw format and the transformed and filtered format. These data sources are decoupled from the specific workspace experiments, allowing users to mix and match what data is used without duplicating data sources.
 - The `etl.py` file defines the over all structure of the DRAAF ETL pipeline.
 - The `metric_engine.py` file defines the equations to produce the metrics.
 - The `protocol_definitions.py` file defines the protocol specific energy models used to generate the metrics.
